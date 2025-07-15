@@ -92,9 +92,9 @@ $(document).ready(function(){initNavTree('md_style-and-tips.html',''); initResiz
   <div class="headertitle"><div class="title">style-and-tips</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h1><a class="anchor" id="autotoc_md30"></a>
+<div class="textblock"><h1><a class="anchor" id="autotoc_md32"></a>
 Some style guidelines and tips</h1>
-<h2><a class="anchor" id="autotoc_md31"></a>
+<h2><a class="anchor" id="autotoc_md33"></a>
 Use the C++ standard library utilities</h2>
 <p>In particular, containers such as std::vector, std::array, std::string, std::tuple, etc can be very useful, safe, and often faster.</p>
 <p>Further, use C++ features: e.g., if you are using a struct to group variables, the struct can be declared and initialized C++ style, not so much C style:</p>
@@ -107,7 +107,7 @@ Use the C++ standard library utilities</h2>
 <div class="line">Params parameters2{5};</div>
 <div class="line">std::cout &lt;&lt; parameters2.a &lt;&lt; &quot;\t&quot; &lt;&lt; parameters2.b &lt;&lt; &quot;\n&quot;;</div>
 </div><!-- fragment --><p>(the first line prints <code>1 -1</code>, the second <code>5 -1</code>.)</p>
-<h2><a class="anchor" id="autotoc_md32"></a>
+<h2><a class="anchor" id="autotoc_md34"></a>
 Keep your functions small</h2>
 <p>If your functions start becoming 100 lines or more, or even exceed 50 lines, consider splitting it up in various subfunctions.</p>
 <p>This has multiple advantages</p>
@@ -116,14 +116,14 @@ Keep your functions small</h2>
 <li>it makes it easier to write unit tests for the functions</li>
 <li>if the functions are members of a class, it is easier to create an overridden member function, so that only a particular algorithm may be altered, instead of having to copy-paste a 300-line function into a child class and only alter 5 lines.</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md33"></a>
+<h2><a class="anchor" id="autotoc_md35"></a>
 Docstrings</h2>
 <p>Do write documentation strings. It always helps both your future slef and others to figure out what is going on in the respective function, or what variables are intended for (but clear variable names also help). Don't write what the code actually does (the infamous <code>i++; // increase i by 1</code> example), but write what the intent is, the underlying algorithm and possibly (a) reference(s).</p>
 <p>The style for docstrings is Doxygen's Qt style, with docstrings starting with <code>/*!</code> or <code>//!</code>. See <a href="https://www.doxygen.nl/manual/docblocks.html">https://www.doxygen.nl/manual/docblocks.html</a> for some details, but generally, follow the overall style in the code.</p>
-<h1><a class="anchor" id="autotoc_md34"></a>
+<h1><a class="anchor" id="autotoc_md36"></a>
 Style</h1>
 <p>This is a general style guide for writing code in the Kariba library. It can, of course, also be used outside of the library, but this is not necessary.</p>
-<h3><a class="anchor" id="autotoc_md35"></a>
+<h3><a class="anchor" id="autotoc_md37"></a>
 Use the formatter</h3>
 <p>The code is formatted with <code>clang-format</code>; this tool can often be installed using a package manager. There is a <code>.clang-format</code> file with some definitions for the style (there are many more options). This ensures a consistent look and feel across the code.</p>
 <p>In particular, it will:</p>
@@ -140,11 +140,11 @@ Use the formatter</h3>
 <li>add braces around single-line if statements</li>
 </ul>
 <p>The various whitespace additions are to make the code (and comments) hopefully more readable.</p>
-<h3><a class="anchor" id="autotoc_md36"></a>
+<h3><a class="anchor" id="autotoc_md38"></a>
 Class, function and variable names</h3>
 <p>Class names follow PascalCase: each (sub)word is started with a capital. This is done in a rather relaxed manner: <code>BBody</code> instead of <code>BlackBody</code>, <code>Powerlaw</code> and <code>Cyclosyn</code> instead of <code>PowerLaw</code> and <code>CycloSyn</code>.</p>
 <p>Function and variable names are snake_case: use underscores to separate parts of the function. The underscore tends to read better (more space) than with camelCase, where long names can become cumbersome to read (<code>a_very_long_variable_name</code> vs <code>aVeryLongVariableName</code>).</p>
-<h1><a class="anchor" id="autotoc_md37"></a>
+<h1><a class="anchor" id="autotoc_md39"></a>
 Header / include files</h1>
 <p>Include header files only where they are needed: sometimes, they are needed only in the cpp file, so don't include them in the related hpp file. If both files need them, include them in both.</p>
 <p>Be aware that the order of header files shouldn't matter. In fact, clang-format will order the header files alphabetically.</p>
@@ -156,7 +156,7 @@ Header / include files</h1>
 <li><code>c.cpp</code> includes <code>a.h</code> before <code>b.h</code> (and doesn't include <code>vector</code> itself). Therefore, when the preprocessor has finished, the <code>&lt;vector&gt;</code> is included before <code>func</code> is defined, and the compilation works fine.</li>
 <li>If <code>c.cpp</code> includes <code>b.h</code> before <code>a.h</code>, after the preprocessing stage, <code>func</code> is defined before <code>vector</code> is included, and the compilation will fail.</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md39"></a>
+<h1><a class="anchor" id="autotoc_md41"></a>
 Unit tests</h1>
 <p>Try and include some basic unit tests with your new functionality. Take care of covering edge cases, such as NaN or infinity in the input, out-of-range values as input, empty inputs (0-size vectors) and other edge cases. A few basic tests can cover the normal cases.</p>
 <p>See the EBL unit tests as an example of covering edge cases, and running a few tests for more normal cases. </p>

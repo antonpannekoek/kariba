@@ -64,41 +64,43 @@ var NAVTREE =
         [ "Prerequisites", "md_installation.html#autotoc_md25", null ],
         [ "Download", "md_installation.html#autotoc_md26", null ],
         [ "Set up the installation", "md_installation.html#autotoc_md27", null ],
-        [ "Build the code", "md_installation.html#autotoc_md28", null ],
-        [ "Compiling and running the test and examples", "md_installation.html#autotoc_md29", null ]
+        [ "Build the code", "md_installation.html#autotoc_md28", [
+          [ "Products", "md_installation.html#autotoc_md29", null ]
+        ] ],
+        [ "Compiling and running the test and examples", "md_installation.html#autotoc_md30", null ]
       ] ]
     ] ],
     [ "style-and-tips", "md_style-and-tips.html", [
-      [ "Some style guidelines and tips", "md_style-and-tips.html#autotoc_md30", [
-        [ "Use the C++ standard library utilities", "md_style-and-tips.html#autotoc_md31", null ],
-        [ "Keep your functions small", "md_style-and-tips.html#autotoc_md32", null ],
-        [ "Docstrings", "md_style-and-tips.html#autotoc_md33", null ]
+      [ "Some style guidelines and tips", "md_style-and-tips.html#autotoc_md32", [
+        [ "Use the C++ standard library utilities", "md_style-and-tips.html#autotoc_md33", null ],
+        [ "Keep your functions small", "md_style-and-tips.html#autotoc_md34", null ],
+        [ "Docstrings", "md_style-and-tips.html#autotoc_md35", null ]
       ] ],
-      [ "Style", "md_style-and-tips.html#autotoc_md34", null ],
-      [ "Header / include files", "md_style-and-tips.html#autotoc_md37", null ],
-      [ "Unit tests", "md_style-and-tips.html#autotoc_md39", null ]
+      [ "Style", "md_style-and-tips.html#autotoc_md36", null ],
+      [ "Header / include files", "md_style-and-tips.html#autotoc_md39", null ],
+      [ "Unit tests", "md_style-and-tips.html#autotoc_md41", null ]
     ] ],
     [ "testing", "md_testing.html", [
-      [ "Testing Kariba", "md_testing.html#autotoc_md40", [
-        [ "Building Kariba, the examples and tests", "md_testing.html#autotoc_md41", null ],
-        [ "Unit tests", "md_testing.html#autotoc_md42", [
-          [ "Extensive example unit test", "md_testing.html#autotoc_md43", null ]
+      [ "Testing Kariba", "md_testing.html#autotoc_md42", [
+        [ "Building Kariba, the examples and tests", "md_testing.html#autotoc_md43", null ],
+        [ "Unit tests", "md_testing.html#autotoc_md44", [
+          [ "Extensive example unit test", "md_testing.html#autotoc_md45", null ]
         ] ],
-        [ "Examples", "md_testing.html#autotoc_md44", null ],
-        [ "GitHub actions", "md_testing.html#autotoc_md45", null ]
+        [ "Examples", "md_testing.html#autotoc_md46", null ],
+        [ "GitHub actions", "md_testing.html#autotoc_md47", null ]
       ] ]
     ] ],
     [ "using", "md_using.html", [
-      [ "Using and developing with or for the Kariba library", "md_using.html#autotoc_md46", [
-        [ "Creating your own model using the library", "md_using.html#autotoc_md47", null ],
-        [ "Creating your own model using the library, extending some parts of the library", "md_using.html#autotoc_md48", [
-          [ "Extend or change class functionality (e.g., a member function)", "md_using.html#autotoc_md49", null ]
+      [ "Using and developing with or for the Kariba library", "md_using.html#autotoc_md48", [
+        [ "Creating your own model using the library", "md_using.html#autotoc_md49", null ],
+        [ "Creating your own model using the library, extending some parts of the library", "md_using.html#autotoc_md50", [
+          [ "Extend or change class functionality (e.g., a member function)", "md_using.html#autotoc_md51", null ]
         ] ],
-        [ "Improve, extend or fix a bug in the library", "md_using.html#autotoc_md51", [
-          [ "Git setup", "md_using.html#autotoc_md52", null ],
-          [ "Create a branch and add your changes", "md_using.html#autotoc_md53", null ],
-          [ "Push the branch and create a pull request", "md_using.html#autotoc_md54", null ],
-          [ "Updating the pull request", "md_using.html#autotoc_md55", null ]
+        [ "Improve, extend or fix a bug in the library", "md_using.html#autotoc_md53", [
+          [ "Git setup", "md_using.html#autotoc_md54", null ],
+          [ "Create a branch and add your changes", "md_using.html#autotoc_md55", null ],
+          [ "Push the branch and create a pull request", "md_using.html#autotoc_md56", null ],
+          [ "Updating the pull request", "md_using.html#autotoc_md57", null ]
         ] ]
       ] ]
     ] ],
@@ -133,7 +135,7 @@ var NAVTREEINDEX =
 "classkariba_1_1Compton.html#a9631198617953d50159a5aad8fbefcab",
 "classkariba_1_1Powerlaw.html#a1a64f3e71abeb05215f87cd782e0effe",
 "md_considerations.html#autotoc_md18",
-"structkariba_1_1HetagParams.html#abdbd999358048683c4ee47492a9c6d0d"
+"structkariba_1_1HetagParams.html#ab25e2c7ad8c84c0dd4f10fa78bf71851"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

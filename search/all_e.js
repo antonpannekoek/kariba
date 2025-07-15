@@ -6,7 +6,7 @@ var searchData=
   ['particles_3',['particles',['../classkariba_1_1Particles.html',1,'kariba::Particles'],['../md_about.html#autotoc_md5',1,'particles'],['../classkariba_1_1Particles.html#aebc2620332de62a8c5f06f31a31905b3',1,'kariba::Particles::Particles()']]],
   ['particles_2ecpp_4',['Particles.cpp',['../Particles_8cpp.html',1,'']]],
   ['particles_2ehpp_5',['Particles.hpp',['../Particles_8hpp.html',1,'']]],
-  ['parts_20of_20the_20library_6',['Creating your own model using the library, extending some parts of the library',['../md_using.html#autotoc_md48',1,'']]],
+  ['parts_20of_20the_20library_6',['Creating your own model using the library, extending some parts of the library',['../md_using.html#autotoc_md50',1,'']]],
   ['pbrk_7',['pbrk',['../classkariba_1_1Bknpower.html#abee4eb2da01809be88c6a5f772e2c6ca',1,'kariba::Bknpower']]],
   ['phifunc_8',['PhiFunc',['../namespacekariba.html#a00d650af6183e4535e813c081af75079',1,'kariba']]],
   ['phifunc_5fgamma_9',['PhiFunc_gamma',['../namespacekariba.html#a48812a181643bd3d1d28509e7716a91b',1,'kariba']]],
@@ -33,11 +33,12 @@ var searchData=
   ['prob_5ffve_30',['prob_fve',['../namespacekariba.html#a607a35813b706e960a44e35298f5f1f1',1,'kariba']]],
   ['product_31',['product',['../structkariba_1_1HetaParams.html#a7330df3a3797754cd4f878f5c0061da0',1,'kariba::HetaParams']]],
   ['production_5frate_32',['production_rate',['../namespacekariba.html#a801efd11e31c6e77a6cb1069f8ed69af',1,'kariba']]],
-  ['proton_5fdist_33',['proton_dist',['../namespacekariba.html#a2e1b365a9f8c80279eebcaf3125d041a',1,'kariba']]],
-  ['protontimescales_34',['ProtonTimescales',['../classkariba_1_1Powerlaw.html#a7aac22e625701cc5512ccbc55319652a',1,'kariba::Powerlaw']]],
-  ['pspec_35',['pspec',['../classkariba_1_1Powerlaw.html#a5e766e684e8d0b86429292b716489680',1,'kariba::Powerlaw::pspec'],['../classkariba_1_1Mixed.html#a8ec2a987fd120037fbca3362f670902f',1,'kariba::Mixed::pspec']]],
-  ['pspec1_36',['pspec1',['../classkariba_1_1Bknpower.html#aa98a53e063d33b05a698e142d9487500',1,'kariba::Bknpower']]],
-  ['pspec2_37',['pspec2',['../classkariba_1_1Bknpower.html#acc9477f73727a683c6f31d636468e48a',1,'kariba::Bknpower']]],
-  ['pull_20request_38',['pull request',['../md_using.html#autotoc_md54',1,'Push the branch and create a pull request'],['../md_using.html#autotoc_md55',1,'Updating the pull request']]],
-  ['push_20the_20branch_20and_20create_20a_20pull_20request_39',['Push the branch and create a pull request',['../md_using.html#autotoc_md54',1,'']]]
+  ['products_33',['Products',['../md_installation.html#autotoc_md29',1,'']]],
+  ['proton_5fdist_34',['proton_dist',['../namespacekariba.html#a2e1b365a9f8c80279eebcaf3125d041a',1,'kariba']]],
+  ['protontimescales_35',['ProtonTimescales',['../classkariba_1_1Powerlaw.html#a7aac22e625701cc5512ccbc55319652a',1,'kariba::Powerlaw']]],
+  ['pspec_36',['pspec',['../classkariba_1_1Powerlaw.html#a5e766e684e8d0b86429292b716489680',1,'kariba::Powerlaw::pspec'],['../classkariba_1_1Mixed.html#a8ec2a987fd120037fbca3362f670902f',1,'kariba::Mixed::pspec']]],
+  ['pspec1_37',['pspec1',['../classkariba_1_1Bknpower.html#aa98a53e063d33b05a698e142d9487500',1,'kariba::Bknpower']]],
+  ['pspec2_38',['pspec2',['../classkariba_1_1Bknpower.html#acc9477f73727a683c6f31d636468e48a',1,'kariba::Bknpower']]],
+  ['pull_20request_39',['pull request',['../md_using.html#autotoc_md56',1,'Push the branch and create a pull request'],['../md_using.html#autotoc_md57',1,'Updating the pull request']]],
+  ['push_20the_20branch_20and_20create_20a_20pull_20request_40',['Push the branch and create a pull request',['../md_using.html#autotoc_md56',1,'']]]
 ];

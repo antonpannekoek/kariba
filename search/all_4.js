@@ -1,7 +1,7 @@
 var searchData=
 [
   ['e_0',['E',['../structkariba_1_1HetaParams.html#a2ec6e56e228acf8a272e99b52a7e30f5',1,'kariba::HetaParams']]],
-  ['e_20g_20a_20member_20function_1',['Extend or change class functionality (e.g., a member function)',['../md_using.html#autotoc_md49',1,'']]],
+  ['e_20g_20a_20member_20function_1',['Extend or change class functionality (e.g., a member function)',['../md_using.html#autotoc_md51',1,'']]],
   ['e1_2',['e1',['../structkariba_1_1ComfncParams.html#a6f644f2fee0050d9df8405582cacaaed',1,'kariba::ComfncParams']]],
   ['ebl_3',['ebl',['../namespacekariba.html#ac26a7a4e07d6420b16d951a618be93d0',1,'kariba']]],
   ['ebl_2ecpp_4',['EBL.cpp',['../EBL_8cpp.html',1,'']]],
@@ -29,11 +29,11 @@ var searchData=
   ['escape_5fcorr_26',['escape_corr',['../classkariba_1_1Compton.html#a916948a72c7986e71629e74c0c00cd47',1,'kariba::Compton']]],
   ['eta_27',['eta',['../structkariba_1_1HetaParams.html#a84cdf0331dfa11f916409f2cb01a4c9a',1,'kariba::HetaParams::eta'],['../structkariba_1_1HetagParams.html#a098e85eee3ea6681ddb22d24b66878c2',1,'kariba::HetagParams::eta']]],
   ['eta_5fzero_28',['eta_zero',['../structkariba_1_1HetaParams.html#a2c4e036238644405718b4468dda8ad47',1,'kariba::HetaParams::eta_zero'],['../structkariba_1_1HetagParams.html#ae2a8407562e730ca42203e3b1e707657',1,'kariba::HetagParams::eta_zero']]],
-  ['example_20unit_20test_29',['Extensive example unit test',['../md_testing.html#autotoc_md43',1,'']]],
-  ['examples_30',['examples',['../md_installation.html#autotoc_md29',1,'Compiling and running the test and examples'],['../md_about.html#autotoc_md4',1,'Examples'],['../md_testing.html#autotoc_md44',1,'Examples']]],
-  ['examples_20and_20tests_31',['Building Kariba, the examples and tests',['../md_testing.html#autotoc_md41',1,'']]],
-  ['extend_20or_20change_20class_20functionality_20e_20g_20a_20member_20function_32',['Extend or change class functionality (e.g., a member function)',['../md_using.html#autotoc_md49',1,'']]],
-  ['extend_20or_20fix_20a_20bug_20in_20the_20library_33',['Improve, extend or fix a bug in the library',['../md_using.html#autotoc_md51',1,'']]],
-  ['extending_20some_20parts_20of_20the_20library_34',['Creating your own model using the library, extending some parts of the library',['../md_using.html#autotoc_md48',1,'']]],
-  ['extensive_20example_20unit_20test_35',['Extensive example unit test',['../md_testing.html#autotoc_md43',1,'']]]
+  ['example_20unit_20test_29',['Extensive example unit test',['../md_testing.html#autotoc_md45',1,'']]],
+  ['examples_30',['examples',['../md_installation.html#autotoc_md30',1,'Compiling and running the test and examples'],['../md_about.html#autotoc_md4',1,'Examples'],['../md_testing.html#autotoc_md46',1,'Examples']]],
+  ['examples_20and_20tests_31',['Building Kariba, the examples and tests',['../md_testing.html#autotoc_md43',1,'']]],
+  ['extend_20or_20change_20class_20functionality_20e_20g_20a_20member_20function_32',['Extend or change class functionality (e.g., a member function)',['../md_using.html#autotoc_md51',1,'']]],
+  ['extend_20or_20fix_20a_20bug_20in_20the_20library_33',['Improve, extend or fix a bug in the library',['../md_using.html#autotoc_md53',1,'']]],
+  ['extending_20some_20parts_20of_20the_20library_34',['Creating your own model using the library, extending some parts of the library',['../md_using.html#autotoc_md50',1,'']]],
+  ['extensive_20example_20unit_20test_35',['Extensive example unit test',['../md_testing.html#autotoc_md45',1,'']]]
 ];

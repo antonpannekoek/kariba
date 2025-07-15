@@ -1,5 +1,6 @@
 var NAVTREEINDEX4 =
 {
+"structkariba_1_1HetagParams.html#ab25e2c7ad8c84c0dd4f10fa78bf71851":[7,0,0,13,8],
 "structkariba_1_1HetagParams.html#abdbd999358048683c4ee47492a9c6d0d":[7,0,0,13,7],
 "structkariba_1_1HetagParams.html#abdbd999358048683c4ee47492a9c6d0d":[8,0,0,12,7],
 "structkariba_1_1HetagParams.html#ae2a8407562e730ca42203e3b1e707657":[7,0,0,13,4],

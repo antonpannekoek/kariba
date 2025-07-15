@@ -94,56 +94,52 @@ $(document).ready(function(){initNavTree('md_installation.html',''); initResizab
 <div class="contents">
 <div class="textblock"><h1><a class="anchor" id="autotoc_md24"></a>
 Installation</h1>
-<p>The Kariba library can be installed using CMake. The installation has been tested against CMake version 3.26, 3.28 and 4.0.</p>
+<p>The Kariba library can be installed using make.</p>
 <h2><a class="anchor" id="autotoc_md25"></a>
 Prerequisites</h2>
-<p>The library has two prerequisites:</p>
-<ul>
-<li>The GNU Scientific Library, GSL. This can often be installed with help of a package manager.</li>
-<li><p class="startli">PyBind11. This can be installed with <code>python -m pip install pybind11</code>, and sometimes through a package manager. Either option should work; just ensure you are using at least version 2.13.</p>
-<p class="startli">If you like, you can install PyBind11 in a virtual environment. Just make sure that virtual environment is activated when you build the Kariba library.</p>
-</li>
-</ul>
+<p>The library has just one prerequisites: the GNU Scientific Library, GSL. This can often be installed with help of a package manager.</p>
 <h2><a class="anchor" id="autotoc_md26"></a>
 Download</h2>
 <p>First, download or clone the repository.</p>
-<p>You can download a zip file from <a href="https://github.com/evertrol/bhjet">https://github.com/evertrol/bhjet</a> (click the green '&lt;&gt; Code' button, then select "Download ZIP"), or clone the repository: on the command line, in a suitable directory:</p>
-<div class="fragment"><div class="line">git clone https://github.com/evertrol/BHJet.git</div>
+<p>You can download a zip file from <a href="https://github.com/antonpannekoek/kariba">https://github.com/antonpannekoek/kariba</a> (click the green '&lt;&gt; Code' button, then select "Download ZIP"), or clone the repository: on the command line, in a suitable directory:</p>
+<div class="fragment"><div class="line">git clone https://github.com/antonpannekoek/kariba.git</div>
 <div class="line"> </div>
-<div class="line">cd BHJet</div>
+<div class="line">cd kariba</div>
 </div><!-- fragment --><h2><a class="anchor" id="autotoc_md27"></a>
 Set up the installation</h2>
-<p>Once inside the local repository, take the following steps:</p>
+<p>Edit <code>make.config</code> and set the variables as necessary. You can comment-out or leave blank the variables you don't need.</p>
 <ul>
-<li><p class="startli">Edit <code>cmake.config</code> and set the <code>CMAKE_INSTALL_PREFIX</code> variable to the base directory where you want the library to be installed. The actual library will be installed in the <code>lib</code> subdirectory, while the header files are installed in the <code>include/kariba</code> subdirectory (the directories are created if they do not exist).</p>
-<p class="startli">You can always change this prefix with the <code>--install-prefix</code> option on the fly later during the installation process.</p>
-<p class="startli">Note that you do not actually need to install the library to use it; it only needs to be build.</p>
-</li>
-<li><p class="startli">Edit <code>cmake.config</code> and update the base path(s) to the GSL library. If GSL is installed through your system package manager, there is no need to set this. If it is installed in another way or in a non-system location, change this accordingly. For example, Homebrew may install GSL in <code>/opt/homebrew/Cellar/gsl/2.8</code> or similar.</p>
-<p class="startli">The include path and library path follow from the base directory, by appending <code>include</code> and <code>lib</code>. If these directories are different, change the <code>GSL_INCLUDE_DIR</code> and <code>GSL_LIBRARY_DIR</code> explicitly (Note that there should be a <code>gsl</code> subdirectory in the <code>include</code> directory, which should not be included in the <code>GSL_INCLUDE_DIR</code>).</p>
-</li>
-<li>Check that PyBind11 for Python is installed. Running <code>python -m pybind11</code> on the command line should show a help message (instead of an error), and <code>python -m pybind11 --cmakedir</code> should print the directory where PyBind11 stores CMake configuration files. (This command is exactly what is being used during the installation to locate and use PyBind11.)</li>
+<li><code>GSL</code>: the main path to your GNU Scientific Library (GSL) directory. If your system package manager installed the GSL, you can leave this blank. You can probably find this path with <code>pkgconf gsl --variable=prefix</code> or <code>pkg-config gsl --variable=prefix</code>.</li>
+<li><code>CXX</code>: the C++ compiler. In particular if you use OpenMP, make sure the compiler supports this.</li>
+<li><code>CXXFLAGS</code>: some compiler flags you may want to set (or unset) when building the library.</li>
+<li><code>OPENMP</code>: the compiler and linker option when using OpenMP. Leave empty or commented-out when not building with OpenMP.</li>
 </ul>
 <h2><a class="anchor" id="autotoc_md28"></a>
 Build the code</h2>
-<p>In the base BHJet directory, create a build directory; simply called it <code>build/</code>, and change to it: </p><div class="fragment"><div class="line">mkdir build</div>
-<div class="line">cd build</div>
-</div><!-- fragment --><p>Now, run CMake, pointing to the base directory: </p><div class="fragment"><div class="line">cmake ..</div>
-</div><!-- fragment --><p>This will configure the build process for your system.</p>
-<p>Now, build the library </p><div class="fragment"><div class="line">cmake --build .</div>
-</div><!-- fragment --><p>If something goes wrong during the configuration or build process, you can simply remove everything in this <code>build</code> directory, fix the problem, and run the configuration and build step again.</p>
-<p>The build should result in several library files, called libkariba.a (the static library) and libkariba.so (the shared library).</p>
-<p>The header files are in the <code>include/kariba</code> directory inside the <code>build</code> directory.</p>
-<p>For most projects, the static library is easier to use, in the sense that this will result in an executable that includes all the functions in the library, and does not need to link against the shared library.</p>
-<p>If you want, you can now install the code, with </p><div class="fragment"><div class="line">cmake --install .</div>
-</div><!-- fragment --><p>This essentially only copies the files to a more generic directory. If you like, you can change this directory from what is configuration in the <code>config.cmake</code> file, with the <code>--install-prefix</code> option. For example:</p>
-<div class="fragment"><div class="line">cmake --install --install-prefix=$HOME/sw .</div>
-</div><!-- fragment --><h2><a class="anchor" id="autotoc_md29"></a>
+<p>From the root directory, just run <code>make</code>.</p>
+<p>This will call the Makefiles in the separate subdirectories: <code>src/</code>, <code>examples/</code>, <code>examples/model/</code> and <code>tests/</code>. You can build subdirectories separately by either going into the directory and (re)running <code>make</code>, or from the root, run any of</p>
+<ul>
+<li><code>make lib</code></li>
+<li><code>make examples</code></li>
+<li><code>make model</code></li>
+<li><code>make tests</code></li>
+</ul>
+<p>The default is to build everything.</p>
+<p>You can speed up building the code with parallel builds, using <code>make -j</code>. If you prefer to keep your system responsive during the build, supply the <code>-j</code> option with the number of cores you want to use for building, e.g. <code>make -j7</code> would leave one core for the system during the build on an 8-core machine.</p>
+<h3><a class="anchor" id="autotoc_md29"></a>
+Products</h3>
+<p>The build process produces a <code>src/libkariba.a</code> file that is the actual Kariba library. This is the actual file that you would need to include at the linking stage when building your own model.</p>
+<p>In <code>src/kariba</code> are the header files. If you include a header file like <code>#include &lt;<a class="el" href="Particles_8hpp.html">kariba/Particles.hpp</a>&gt;</code>, then provide the <code>src/</code> directory for the include path to the compiler, with the <code>-I</code> option.</p>
+<p>Other files are the three example files, <code>examples/corona</code>, <code>examples/particles</code> and <code>examples/singlezone</code>.</p>
+<p>In the <code>examples/model/</code> subdirectory, there is the <code>bhwrap</code> executable that can serve as an example application.</p>
+<h2><a class="anchor" id="autotoc_md30"></a>
 Compiling and running the test and examples</h2>
 <p>If you build everything from the root directory, the unit tests and the examples should already have been built. Otherwise, enter the respective directories, tests/ and examples/, and simply run <code>make</code>.</p>
 <p>Once build, inside the respective directories, you can run all the unit tests with</p>
 <div class="fragment"><div class="line">./test_main</div>
 </div><!-- fragment --><p>Hopefully all tests pass.</p>
+<p>Run <code>./test_main -h</code> to see options to select specific unit tests.</p>
+<hr  />
 <p>For the examples, inside their directory, run them with</p>
 <div class="fragment"><div class="line">./corona</div>
 <div class="line">./particles</div>

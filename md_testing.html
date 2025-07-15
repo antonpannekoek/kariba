@@ -92,9 +92,9 @@ $(document).ready(function(){initNavTree('md_testing.html',''); initResizable();
   <div class="headertitle"><div class="title">testing</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h1><a class="anchor" id="autotoc_md40"></a>
+<div class="textblock"><h1><a class="anchor" id="autotoc_md42"></a>
 Testing Kariba</h1>
-<h2><a class="anchor" id="autotoc_md41"></a>
+<h2><a class="anchor" id="autotoc_md43"></a>
 Building Kariba, the examples and tests</h2>
 <p>Building the library, its examples and its tests is the first step to testing Kariba.</p>
 <p>Pay attention to warnings. Most, essentially all, warnings should be fixed. For example, unused variables can indicate typos.</p>
@@ -102,20 +102,20 @@ Building Kariba, the examples and tests</h2>
 <div class="fragment"><div class="line">make distclean</div>
 <div class="line">make -j</div>
 </div><!-- fragment --><p>Also verify that the order of include files does not matter: you should be able to swap some of the includes (in particular, the Kariba ones) without causing a problem. In the end, though, the formatter will sort the includes alphabetically.</p>
-<h2><a class="anchor" id="autotoc_md42"></a>
+<h2><a class="anchor" id="autotoc_md44"></a>
 Unit tests</h2>
 <p>Kariba has a set of unit tests. These are far from complete, and are derived from the examples.</p>
 <p>Feel free to add further tests. Keep them simple: test basic functionality first.</p>
 <p>If you write a new function, it is good to add unit tests for that function. Test for a few regular input arguments, but also for bad arguments (negative values, empty vectors etc).</p>
 <p>If you find a bug, and fix the bug, add a unit test that specifically tests for this bug, so that the bug will be caught quicker and more easily should it return (a so-called regression test).</p>
-<h3><a class="anchor" id="autotoc_md43"></a>
+<h3><a class="anchor" id="autotoc_md45"></a>
 Extensive example unit test</h3>
 <p>While most unit tests were LLM-derived from the examples, the EBL unit test was manually written. It is perhaps not fully complete, but does test for edge cases and such. It is suggested to take the EBL unit tests as an example when writing your own unit tests for a function.</p>
-<h2><a class="anchor" id="autotoc_md44"></a>
+<h2><a class="anchor" id="autotoc_md46"></a>
 Examples</h2>
 <p>The examples are tested by running them, then comparing the *.dat files in the output/ directory with those in the comparison-output/ directory. The differences should be exactly zero. A quick one-liner in bash or zsh is <code>for path in output/*dat ; do fname=$(basename $path) ; comppath="comparison-output/${fname}" ; echo "diff -q $path
 $comppath" ; diff -q $path $comppath ; done</code>.</p>
-<h2><a class="anchor" id="autotoc_md45"></a>
+<h2><a class="anchor" id="autotoc_md47"></a>
 GitHub actions</h2>
 <p>All of the above (or nearly; not the shuffling of include files) is done automatically as part of the continuous integration (CI). This is done through GitHub actions, and runs in a virtual Linux machine. See the setup in <code>.github/workflows/ci.yml</code>. </p>
 </div></div><!-- contents -->
