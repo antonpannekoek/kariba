@@ -1,0 +1,35 @@
+var annotated_dup =
+[
+    [ "kariba", "namespacekariba.html", [
+      [ "BBody", "classkariba_1_1BBody.html", "classkariba_1_1BBody" ],
+      [ "BknParams", "structkariba_1_1BknParams.html", "structkariba_1_1BknParams" ],
+      [ "Bknpower", "classkariba_1_1Bknpower.html", "classkariba_1_1Bknpower" ],
+      [ "ComfncParams", "structkariba_1_1ComfncParams.html", "structkariba_1_1ComfncParams" ],
+      [ "ComintParams", "structkariba_1_1ComintParams.html", "structkariba_1_1ComintParams" ],
+      [ "Compton", "classkariba_1_1Compton.html", "classkariba_1_1Compton" ],
+      [ "Cyclosyn", "classkariba_1_1Cyclosyn.html", "classkariba_1_1Cyclosyn" ],
+      [ "CyclosynAbsParams", "structkariba_1_1CyclosynAbsParams.html", "structkariba_1_1CyclosynAbsParams" ],
+      [ "CyclosynEmisParams", "structkariba_1_1CyclosynEmisParams.html", "structkariba_1_1CyclosynEmisParams" ],
+      [ "DiskIcParams", "structkariba_1_1DiskIcParams.html", "structkariba_1_1DiskIcParams" ],
+      [ "DiskObsParams", "structkariba_1_1DiskObsParams.html", "structkariba_1_1DiskObsParams" ],
+      [ "Grays", "classkariba_1_1Grays.html", "classkariba_1_1Grays" ],
+      [ "HetagParams", "structkariba_1_1HetagParams.html", "structkariba_1_1HetagParams" ],
+      [ "HetaParams", "structkariba_1_1HetaParams.html", "structkariba_1_1HetaParams" ],
+      [ "InjectionBknParams", "structkariba_1_1InjectionBknParams.html", "structkariba_1_1InjectionBknParams" ],
+      [ "InjectionKappaParams", "structkariba_1_1InjectionKappaParams.html", "structkariba_1_1InjectionKappaParams" ],
+      [ "InjectionMixedParams", "structkariba_1_1InjectionMixedParams.html", "structkariba_1_1InjectionMixedParams" ],
+      [ "InjectionPlParams", "structkariba_1_1InjectionPlParams.html", "structkariba_1_1InjectionPlParams" ],
+      [ "Kappa", "classkariba_1_1Kappa.html", "classkariba_1_1Kappa" ],
+      [ "KParams", "structkariba_1_1KParams.html", "structkariba_1_1KParams" ],
+      [ "Mixed", "classkariba_1_1Mixed.html", "classkariba_1_1Mixed" ],
+      [ "Neutrinos_pg", "classkariba_1_1Neutrinos__pg.html", "classkariba_1_1Neutrinos__pg" ],
+      [ "Neutrinos_pp", "classkariba_1_1Neutrinos__pp.html", "classkariba_1_1Neutrinos__pp" ],
+      [ "Particles", "classkariba_1_1Particles.html", "classkariba_1_1Particles" ],
+      [ "PlParams", "structkariba_1_1PlParams.html", "structkariba_1_1PlParams" ],
+      [ "Powerlaw", "classkariba_1_1Powerlaw.html", "classkariba_1_1Powerlaw" ],
+      [ "Radiation", "classkariba_1_1Radiation.html", "classkariba_1_1Radiation" ],
+      [ "ShSDisk", "classkariba_1_1ShSDisk.html", "classkariba_1_1ShSDisk" ],
+      [ "Thermal", "classkariba_1_1Thermal.html", "classkariba_1_1Thermal" ],
+      [ "ThParams", "structkariba_1_1ThParams.html", "structkariba_1_1ThParams" ]
+    ] ]
+];
