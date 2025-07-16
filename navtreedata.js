@@ -67,40 +67,41 @@ var NAVTREE =
         [ "Build the code", "md_installation.html#autotoc_md28", [
           [ "Products", "md_installation.html#autotoc_md29", null ]
         ] ],
-        [ "Compiling and running the test and examples", "md_installation.html#autotoc_md30", null ]
+        [ "Compiling and running the test and examples", "md_installation.html#autotoc_md30", null ],
+        [ "Installing in a separate directory (optional)", "md_installation.html#autotoc_md32", null ]
       ] ]
     ] ],
     [ "style-and-tips", "md_style-and-tips.html", [
-      [ "Some style guidelines and tips", "md_style-and-tips.html#autotoc_md32", [
-        [ "Use the C++ standard library utilities", "md_style-and-tips.html#autotoc_md33", null ],
-        [ "Keep your functions small", "md_style-and-tips.html#autotoc_md34", null ],
-        [ "Docstrings", "md_style-and-tips.html#autotoc_md35", null ]
+      [ "Some style guidelines and tips", "md_style-and-tips.html#autotoc_md33", [
+        [ "Use the C++ standard library utilities", "md_style-and-tips.html#autotoc_md34", null ],
+        [ "Keep your functions small", "md_style-and-tips.html#autotoc_md35", null ],
+        [ "Docstrings", "md_style-and-tips.html#autotoc_md36", null ]
       ] ],
-      [ "Style", "md_style-and-tips.html#autotoc_md36", null ],
-      [ "Header / include files", "md_style-and-tips.html#autotoc_md39", null ],
-      [ "Unit tests", "md_style-and-tips.html#autotoc_md41", null ]
+      [ "Style", "md_style-and-tips.html#autotoc_md37", null ],
+      [ "Header / include files", "md_style-and-tips.html#autotoc_md40", null ],
+      [ "Unit tests", "md_style-and-tips.html#autotoc_md42", null ]
     ] ],
     [ "testing", "md_testing.html", [
-      [ "Testing Kariba", "md_testing.html#autotoc_md42", [
-        [ "Building Kariba, the examples and tests", "md_testing.html#autotoc_md43", null ],
-        [ "Unit tests", "md_testing.html#autotoc_md44", [
-          [ "Extensive example unit test", "md_testing.html#autotoc_md45", null ]
+      [ "Testing Kariba", "md_testing.html#autotoc_md43", [
+        [ "Building Kariba, the examples and tests", "md_testing.html#autotoc_md44", null ],
+        [ "Unit tests", "md_testing.html#autotoc_md45", [
+          [ "Extensive example unit test", "md_testing.html#autotoc_md46", null ]
         ] ],
-        [ "Examples", "md_testing.html#autotoc_md46", null ],
-        [ "GitHub actions", "md_testing.html#autotoc_md47", null ]
+        [ "Examples", "md_testing.html#autotoc_md47", null ],
+        [ "GitHub actions", "md_testing.html#autotoc_md48", null ]
       ] ]
     ] ],
     [ "using", "md_using.html", [
-      [ "Using and developing with or for the Kariba library", "md_using.html#autotoc_md48", [
-        [ "Creating your own model using the library", "md_using.html#autotoc_md49", null ],
-        [ "Creating your own model using the library, extending some parts of the library", "md_using.html#autotoc_md50", [
-          [ "Extend or change class functionality (e.g., a member function)", "md_using.html#autotoc_md51", null ]
+      [ "Using and developing with or for the Kariba library", "md_using.html#autotoc_md49", [
+        [ "Creating your own model using the library", "md_using.html#autotoc_md50", null ],
+        [ "Creating your own model using the library, extending some parts of the library", "md_using.html#autotoc_md51", [
+          [ "Extend or change class functionality (e.g., a member function)", "md_using.html#autotoc_md52", null ]
         ] ],
-        [ "Improve, extend or fix a bug in the library", "md_using.html#autotoc_md53", [
-          [ "Git setup", "md_using.html#autotoc_md54", null ],
-          [ "Create a branch and add your changes", "md_using.html#autotoc_md55", null ],
-          [ "Push the branch and create a pull request", "md_using.html#autotoc_md56", null ],
-          [ "Updating the pull request", "md_using.html#autotoc_md57", null ]
+        [ "Improve, extend or fix a bug in the library", "md_using.html#autotoc_md54", [
+          [ "Git setup", "md_using.html#autotoc_md55", null ],
+          [ "Create a branch and add your changes", "md_using.html#autotoc_md56", null ],
+          [ "Push the branch and create a pull request", "md_using.html#autotoc_md57", null ],
+          [ "Updating the pull request", "md_using.html#autotoc_md58", null ]
         ] ]
       ] ]
     ] ],

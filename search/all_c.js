@@ -1,7 +1,7 @@
 var searchData=
 [
   ['n_0',['n',['../structkariba_1_1PlParams.html#a671714e5a0c99753580f37f7d81bb878',1,'kariba::PlParams::n'],['../structkariba_1_1ThParams.html#a2c51faf28b27e40b7e8bd450bf56fa22',1,'kariba::ThParams::n'],['../structkariba_1_1InjectionKappaParams.html#a89c13050d70edf96cf4976c9792e099b',1,'kariba::InjectionKappaParams::n'],['../structkariba_1_1InjectionPlParams.html#ae5f66bfc62ca83251b6278d57c16c2fb',1,'kariba::InjectionPlParams::n'],['../structkariba_1_1InjectionBknParams.html#a1c0cb8284a8ff7ced3ec8863e490469b',1,'kariba::InjectionBknParams::n']]],
-  ['names_1',['Class, function and variable names',['../md_style-and-tips.html#autotoc_md38',1,'']]],
+  ['names_1',['Class, function and variable names',['../md_style-and-tips.html#autotoc_md39',1,'']]],
   ['namespacing_2',['Namespacing',['../md_considerations.html#autotoc_md16',1,'']]],
   ['ndens_3',['ndens',['../classkariba_1_1Particles.html#ab119b7425ba1d38bba755c1fed26095d',1,'kariba::Particles']]],
   ['neutrinos_5fpg_4',['neutrinos_pg',['../classkariba_1_1Neutrinos__pg.html',1,'kariba::Neutrinos_pg'],['../classkariba_1_1Neutrinos__pg.html#a7baf05fd5628068db15fc76e76ad6611',1,'kariba::Neutrinos_pg::Neutrinos_pg()']]],

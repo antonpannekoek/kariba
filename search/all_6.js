@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['g_20a_20member_20function_0',['Extend or change class functionality (e.g., a member function)',['../md_using.html#autotoc_md51',1,'']]],
+  ['g_20a_20member_20function_0',['Extend or change class functionality (e.g., a member function)',['../md_using.html#autotoc_md52',1,'']]],
   ['game_1',['game',['../structkariba_1_1ComfncParams.html#af60c4ad23521965c50c0359ba754707b',1,'kariba::ComfncParams']]],
   ['gamma_2',['gamma',['../classkariba_1_1Particles.html#a01d143ffa2dec6eb5e3a9d327b71a016',1,'kariba::Particles::gamma'],['../structkariba_1_1DiskIcParams.html#acd0ee68f9b7e61ce8eb725ee2fb3d57a',1,'kariba::DiskIcParams::gamma']]],
   ['gammarays_2ecpp_3',['GammaRays.cpp',['../GammaRays_8cpp.html',1,'']]],
@@ -24,12 +24,12 @@ var searchData=
   ['get_5ftau_21',['get_tau',['../classkariba_1_1Compton.html#a459c0972419f2bf1cbfdcca248afe273',1,'kariba::Compton']]],
   ['get_5fvolume_22',['get_volume',['../classkariba_1_1Radiation.html#a4c89cab9323faa3afdd6da5332bae64b',1,'kariba::Radiation']]],
   ['get_5fypar_23',['get_ypar',['../classkariba_1_1Compton.html#a9f817354a112b945bcc7cc06ac9e3cb2',1,'kariba::Compton']]],
-  ['git_20setup_24',['Git setup',['../md_using.html#autotoc_md54',1,'']]],
-  ['github_20actions_25',['GitHub actions',['../md_testing.html#autotoc_md47',1,'']]],
+  ['git_20setup_24',['Git setup',['../md_using.html#autotoc_md55',1,'']]],
+  ['github_20actions_25',['GitHub actions',['../md_testing.html#autotoc_md48',1,'']]],
   ['gp_5fmax_26',['gp_max',['../structkariba_1_1HetagParams.html#afeda11154d2aa9543d9bc29c00b46e80',1,'kariba::HetagParams::gp_max'],['../structkariba_1_1HetaParams.html#af049e7fcc5d5123f482095d8d6d6e1b3',1,'kariba::HetaParams::gp_max']]],
   ['gp_5fmin_27',['gp_min',['../structkariba_1_1HetagParams.html#a9683b661b3831dc4d46cc0c08c2e6758',1,'kariba::HetagParams::gp_min'],['../structkariba_1_1HetaParams.html#a8982b7cf9f9eee4d524c2026be7ae275',1,'kariba::HetaParams::gp_min']]],
   ['gr_5fto_5fkev_28',['gr_to_kev',['../namespacekariba_1_1constants.html#aa84dd07af62584fc8a13d9186abaf5a4',1,'kariba::constants']]],
   ['grays_29',['grays',['../classkariba_1_1Grays.html#ab10198044a8a0ff7e1319a17066b15bf',1,'kariba::Grays::Grays()'],['../classkariba_1_1Grays.html',1,'kariba::Grays']]],
   ['gspec_5fpp_30',['gspec_pp',['../namespacekariba.html#a5f6fe940dba73024010b3202a1075b38',1,'kariba']]],
-  ['guidelines_20and_20tips_31',['Some style guidelines and tips',['../md_style-and-tips.html#autotoc_md32',1,'']]]
+  ['guidelines_20and_20tips_31',['Some style guidelines and tips',['../md_style-and-tips.html#autotoc_md33',1,'']]]
 ];

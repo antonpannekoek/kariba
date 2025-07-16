@@ -8,7 +8,7 @@ var searchData=
   ['re0_5',['re0',['../namespacekariba_1_1constants.html#a8eb7263489ac132a2a0f38982af82fbb',1,'kariba::constants']]],
   ['redshift_6',['redshift',['../namespacekariba.html#a18d304d2414e48d4909699ecc3476ee6',1,'kariba']]],
   ['replacement_20of_20other_20variable_20types_7',['Replacement of other variable types',['../md_considerations.html#autotoc_md19',1,'']]],
-  ['request_8',['request',['../md_using.html#autotoc_md56',1,'Push the branch and create a pull request'],['../md_using.html#autotoc_md57',1,'Updating the pull request']]],
+  ['request_8',['request',['../md_using.html#autotoc_md57',1,'Push the branch and create a pull request'],['../md_using.html#autotoc_md58',1,'Updating the pull request']]],
   ['reset_9',['reset',['../classkariba_1_1Compton.html#a316a493a4576076e228b13ed81c1476c',1,'kariba::Compton']]],
   ['rg_10',['Rg',['../classkariba_1_1ShSDisk.html#a6519906a9a15eeda57ef0137d6922353',1,'kariba::ShSDisk']]],
   ['rin_11',['rin',['../classkariba_1_1ShSDisk.html#a10749bbdfaf3b4e4ea071488f7bdc9c9',1,'kariba::ShSDisk::rin()'],['../structkariba_1_1DiskIcParams.html#aebea6ac1d907cddcd5bf8f466114284c',1,'kariba::DiskIcParams::rin'],['../structkariba_1_1DiskObsParams.html#a6a4f549f3015808725bfbb5129afd686',1,'kariba::DiskObsParams::rin']]],

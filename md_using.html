@@ -92,7 +92,7 @@ $(document).ready(function(){initNavTree('md_using.html',''); initResizable(); }
   <div class="headertitle"><div class="title">using</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h1><a class="anchor" id="autotoc_md48"></a>
+<div class="textblock"><h1><a class="anchor" id="autotoc_md49"></a>
 Using and developing with or for the Kariba library</h1>
 <p>There are three kind of uses of the Kariba library:</p>
 <ul>
@@ -101,7 +101,7 @@ Using and developing with or for the Kariba library</h1>
 <li>you are improving, extending or fixing bugs in the library</li>
 </ul>
 <p>These three scenarios are detailed below</p>
-<h2><a class="anchor" id="autotoc_md49"></a>
+<h2><a class="anchor" id="autotoc_md50"></a>
 Creating your own model using the library</h2>
 <p>In this case, build and install the library first, as described in the installation section. Note in which directory you installed the library, or perhaps you left it where it was build. Both options are fine.</p>
 <p>For your model, create directory outside of the Kariba repository. This should probably become a Git repository of its own, to manage changes to your own model (including, for example, experimental versions on Git branches).</p>
@@ -129,11 +129,11 @@ Creating your own model using the library</h2>
 <div class="fragment"><div class="line">export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:$HOME/sw/lib</div>
 </div><!-- fragment --><p>for a Linux installed variant, and similar for not-installed versions and macOS, replacing the path and/or environment variable accordingly.</p>
 <p>The static library is easier to use. The advantage of a shared library can be that, if that library changes (e.g., because there was a bug fix of a specific function) and the library is updated (you re-installed the Kariba library), then your model follows that fix. With a static library, you would have to recompile your model as well. But it is likely that that is very quick, so you can probably still use the static library variant without hassle, even in the rare cases of updates to the Kariba library.</p>
-<h2><a class="anchor" id="autotoc_md50"></a>
+<h2><a class="anchor" id="autotoc_md51"></a>
 Creating your own model using the library, extending some parts of the library</h2>
 <p>Essentially, you work the same way as above: create a repository for your model separately and independently from the Kariba library, and compile as suggested above.</p>
 <p>For parts where you want to extend functionality, there may be a few ways to go about:</p>
-<h3><a class="anchor" id="autotoc_md51"></a>
+<h3><a class="anchor" id="autotoc_md52"></a>
 Extend or change class functionality (e.g., a member function)</h3>
 <p>If you want to add or change the behaviour of a function of a particular Kariba class, you can do that fairly easily: use the C++ inheritance abilities to create a new class, inheriting from an existing Kariba class you'd like to extend, then add the new function, or override an existing function.</p>
 <p>As an example, let's say we want to change the <code>set_p()</code> member function of the <code><a class="el" href="classkariba_1_1Thermal.html" title="Class for thermal particles. ndens is number density per unit momentum.">kariba::Thermal</a></code> class. The minimum and maximum energy are not what we'd like (first lines of the original function):</p>
@@ -175,11 +175,11 @@ Extend or change class functionality (e.g., a member function)</h3>
 <p>Logically, perhaps, the lower and upper boundary factors should be arguments in <code>set_p()</code>, perhaps with default settings of 1/100 and</p><ol type="1">
 <li>Which leads to the third variant of working with Kariba: extending the library, adding improvements or simply fixing bugs</li>
 </ol>
-<h2><a class="anchor" id="autotoc_md53"></a>
+<h2><a class="anchor" id="autotoc_md54"></a>
 Improve, extend or fix a bug in the library</h2>
 <p>In this case, you'll work directly in the Kariba repository. However, do this on a new branch.</p>
 <p>These changes should be for long-term changes; if you have something that is for a specific or temporary case, use the workflow in the section above.</p>
-<h3><a class="anchor" id="autotoc_md54"></a>
+<h3><a class="anchor" id="autotoc_md55"></a>
 Git setup</h3>
 <p>First, check that you actually have and use a (GitHub) fork of the library. On GitHub, fork the repository. Then, copy the URL for the SSH-variant of the cod of your fork.</p>
 <p>Now, back in the terminal on your local machine, check the remotes of the Kariba library:</p>
@@ -191,11 +191,11 @@ Git setup</h3>
 <p>Now add the URL to the original Kariba repository as an upstream:</p>
 <div class="fragment"><div class="line">git remote set-url origin https//github.com/kariba/kariba.git</div>
 </div><!-- fragment --><p>Check <code>git remote -v</code> again to see that the URLs and names now match as mentioned above.</p>
-<h3><a class="anchor" id="autotoc_md55"></a>
+<h3><a class="anchor" id="autotoc_md56"></a>
 Create a branch and add your changes</h3>
 <p>Create a separate branch, from the main branch, and add your changes there.</p>
 <p>When finished, test that the library still builds, and that the unit tests and examples still build and run. If there was a fix that changes the outcome of a function, update the unit test accordingly (just be sure that your change is correct). If you added a function, add one or a few unit tests that specifically test this function.</p>
-<h3><a class="anchor" id="autotoc_md56"></a>
+<h3><a class="anchor" id="autotoc_md57"></a>
 Push the branch and create a pull request</h3>
 <p>Once everything is commit (you can easily make multipe small commits if it makes sense), first check that you are still up to date with the upstream repository. Pull in any changes and rebase upstream/main:</p>
 <div class="fragment"><div class="line">git fetch upstream</div>
@@ -208,7 +208,7 @@ Push the branch and create a pull request</h3>
 <p>Now you'll hae to wait until a maintainer merges your PR. Or they may have some further questions or suggestions to improve your PR.</p>
 <p>If you yourself are the maintainer, I'd suggest to wait a few days before merging. Sometimes, you later realise you have forgotten something, and you can then still easily add it to the PR.</p>
 <p>Note: please avoid pushing directly to the original repository in you are a maintainer (or even directly to the main branch): using a personal fork makes following the flow of updates much easier. The PR, and changes that came with, is nicely laid out on GitHub (also when closed), and because merging a PR creates a merge commit, there are clear points where a consistent set of changes was added to the library.</p>
-<h3><a class="anchor" id="autotoc_md57"></a>
+<h3><a class="anchor" id="autotoc_md58"></a>
 Updating the pull request</h3>
 <p>Sometimes you want to update a pending pull request: you've forgotten to commit a file, accidentally commited a file that shouldn't be there[*], or made a typo while changing things.</p>
 <p>For that, go to the correct branch in your local repository, make the changes as needed, then force-push the branch to your fork:</p>

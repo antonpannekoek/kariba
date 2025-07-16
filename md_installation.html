@@ -152,8 +152,14 @@ Compiling and running the test and examples</h2>
 <div class="line">Magnetic power: 2.58315e+40</div>
 <div class="line">Proton power: 4.12068e+42</div>
 <div class="line">Total power: 2.21864e+43 erg s^-1, 2.73063e-05 Eddington</div>
-</div><!-- fragment --><p>All the examples also write a bunch of output files in the output/ directory. You can check the output files for correctness by comparing them with those in the output_comparison directory. </p>
-</div></div><!-- contents -->
+</div><!-- fragment --><p>All the examples also write a bunch of output files in the output/ directory. You can check the output files for correctness by comparing them with those in the output_comparison directory.</p>
+<h2><a class="anchor" id="autotoc_md32"></a>
+Installing in a separate directory (optional)</h2>
+<p>As an optional step, you can install the library files, including the header files, into a separate directory. This could be <code>/usr/local/</code>, or something in your home directory, like <code>$HOME/sw</code> or <code>$HOME/.local</code>.</p>
+<p>The install will install the static and shared library files into a <code>lib/</code> subdirectory, and the Kariba header files into a <code>include/kariba/</code> subdirectory.</p>
+<p>Set the <code>PREFIX</code> variable in <code>make.config</code> to the base directory, then simply run</p>
+<div class="fragment"><div class="line">make install</div>
+</div><!-- fragment --> </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
 <!-- start footer part -->
