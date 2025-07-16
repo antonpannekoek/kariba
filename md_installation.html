@@ -107,7 +107,7 @@ Download</h2>
 <div class="line">cd kariba</div>
 </div><!-- fragment --><h2><a class="anchor" id="autotoc_md27"></a>
 Set up the installation</h2>
-<p>Edit <code>make.config</code> and set the variables as necessary. You can comment-out or leave blank the variables you don't need.</p>
+<p>Copy the <code>make.config-template</code> to <code>make.config</code>, and edit the <code>make.config</code> file to set the configuration variables as necessary. You can comment-out or leave blank the variables you don't need.</p>
 <ul>
 <li><code>GSL</code>: the main path to your GNU Scientific Library (GSL) directory. If your system package manager installed the GSL, you can leave this blank. You can probably find this path with <code>pkgconf gsl --variable=prefix</code> or <code>pkg-config gsl --variable=prefix</code>.</li>
 <li><code>CXX</code>: the C++ compiler. In particular if you use OpenMP, make sure the compiler supports this.</li>
