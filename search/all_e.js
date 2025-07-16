@@ -6,7 +6,7 @@ var searchData=
   ['particles_3',['particles',['../classkariba_1_1Particles.html',1,'kariba::Particles'],['../md_about.html#autotoc_md5',1,'particles'],['../classkariba_1_1Particles.html#aebc2620332de62a8c5f06f31a31905b3',1,'kariba::Particles::Particles()']]],
   ['particles_2ecpp_4',['Particles.cpp',['../Particles_8cpp.html',1,'']]],
   ['particles_2ehpp_5',['Particles.hpp',['../Particles_8hpp.html',1,'']]],
-  ['parts_20of_20the_20library_6',['Creating your own model using the library, extending some parts of the library',['../md_using.html#autotoc_md51',1,'']]],
+  ['parts_20of_20the_20library_6',['Creating your own model using the library, extending some parts of the library',['../md_using.html#autotoc_md52',1,'']]],
   ['pbrk_7',['pbrk',['../classkariba_1_1Bknpower.html#abee4eb2da01809be88c6a5f772e2c6ca',1,'kariba::Bknpower']]],
   ['phifunc_8',['PhiFunc',['../namespacekariba.html#a00d650af6183e4535e813c081af75079',1,'kariba']]],
   ['phifunc_5fgamma_9',['PhiFunc_gamma',['../namespacekariba.html#a48812a181643bd3d1d28509e7716a91b',1,'kariba']]],
@@ -39,6 +39,6 @@ var searchData=
   ['pspec_36',['pspec',['../classkariba_1_1Powerlaw.html#a5e766e684e8d0b86429292b716489680',1,'kariba::Powerlaw::pspec'],['../classkariba_1_1Mixed.html#a8ec2a987fd120037fbca3362f670902f',1,'kariba::Mixed::pspec']]],
   ['pspec1_37',['pspec1',['../classkariba_1_1Bknpower.html#aa98a53e063d33b05a698e142d9487500',1,'kariba::Bknpower']]],
   ['pspec2_38',['pspec2',['../classkariba_1_1Bknpower.html#acc9477f73727a683c6f31d636468e48a',1,'kariba::Bknpower']]],
-  ['pull_20request_39',['pull request',['../md_using.html#autotoc_md57',1,'Push the branch and create a pull request'],['../md_using.html#autotoc_md58',1,'Updating the pull request']]],
-  ['push_20the_20branch_20and_20create_20a_20pull_20request_40',['Push the branch and create a pull request',['../md_using.html#autotoc_md57',1,'']]]
+  ['pull_20request_39',['pull request',['../md_using.html#autotoc_md58',1,'Push the branch and create a pull request'],['../md_using.html#autotoc_md59',1,'Updating the pull request']]],
+  ['push_20the_20branch_20and_20create_20a_20pull_20request_40',['Push the branch and create a pull request',['../md_using.html#autotoc_md58',1,'']]]
 ];

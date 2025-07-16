@@ -1,10 +1,10 @@
 var searchData=
 [
-  ['improve_20extend_20or_20fix_20a_20bug_20in_20the_20library_0',['Improve, extend or fix a bug in the library',['../md_using.html#autotoc_md54',1,'']]],
+  ['improve_20extend_20or_20fix_20a_20bug_20in_20the_20library_0',['Improve, extend or fix a bug in the library',['../md_using.html#autotoc_md55',1,'']]],
   ['improvements_20and_20issues_1',['Other improvements and issues',['../md_considerations.html#autotoc_md22',1,'']]],
   ['in_20a_20separate_20directory_20optional_2',['Installing in a separate directory (optional)',['../md_installation.html#autotoc_md32',1,'']]],
-  ['in_20the_20library_3',['Improve, extend or fix a bug in the library',['../md_using.html#autotoc_md54',1,'']]],
-  ['include_20files_4',['Header / include files',['../md_style-and-tips.html#autotoc_md40',1,'']]],
+  ['in_20the_20library_3',['Improve, extend or fix a bug in the library',['../md_using.html#autotoc_md55',1,'']]],
+  ['include_20files_4',['Header / include files',['../md_style-and-tips.html#autotoc_md41',1,'']]],
   ['index_2emd_5',['index.md',['../index_8md.html',1,'']]],
   ['initialize_5fgdens_6',['initialize_gdens',['../classkariba_1_1Particles.html#a1a41047615de751669b563464120dc3e',1,'kariba::Particles']]],
   ['initialize_5fpdens_7',['initialize_pdens',['../classkariba_1_1Particles.html#acc0e46941581995002b790aca2616784',1,'kariba::Particles']]],
