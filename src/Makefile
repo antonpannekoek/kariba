@@ -58,7 +58,7 @@ endif
 
 install: shared
 	install -d $(DESTDIR)$(PREFIX)/lib/
-	install -m 644 libkariba.$(DYN_EXT) $(LIBSHARED) $(DESTDIR)$(PREFIX)/lib/
+	install -m 644 $(LIBSHARED) $(DESTDIR)$(PREFIX)/lib/
 	install -d $(DESTDIR)$(PREFIX)/include/kariba/
 	install -m 644 kariba/*.hpp $(DESTDIR)$(PREFIX)/include/kariba/
 
