@@ -19,10 +19,10 @@ UNAME := $(shell uname -s)
 
 
 CXXFLAGS += $(OPENMP)
-CPPFLAGS = -I${GSL}/include -I${KARIBA} -I.
+CPPFLAGS += $(GSL_CPPFLAGS) -I${KARIBA} -I.
 LD = $(CXX)
-LDFLAGS = -L${GSL}/lib $(OPENMP) $(EXTRA_LDFLAGS)
-LDLIBS = -lgsl -lgslcblas -lm
+LDFLAGS += $(GSL_LDFLAGS) $(OPENMP) $(EXTRA_LDFLAGS)
+LDLIBS += -lgsl -lgslcblas -lm
 RM = rm -f
 
 

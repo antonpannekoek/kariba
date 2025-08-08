@@ -15,10 +15,10 @@ endif
 UNAME := $(shell uname -s)
 
 CXXFLAGS += $(OPENMP)
-CPPFLAGS = $(GSL_CPPFLAGS)
+CPPFLAGS += $(GSL_CPPFLAGS)
 LD = $(CXX)
-LDFLAGS = $(OPENMP) $(GSL_LDFLAGS) $(EXTRA_LDFLAGS)
-LDLIBS = -lgsl -lgslcblas -lm
+LDFLAGS += $(OPENMP) $(GSL_LDFLAGS) $(EXTRA_LDFLAGS)
+LDLIBS += -lgsl -lgslcblas -lm
 AR = ar
 AR_OPTS = rcs
 RM = rm -f
