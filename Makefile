@@ -21,6 +21,7 @@ tests: lib
 
 install: lib
 	$(MAKE) -C src install
+	$(MAKE) -C tests install
 
 docs:
 	$(MAKE) -C docs

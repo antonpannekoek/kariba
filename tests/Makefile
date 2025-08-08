@@ -26,22 +26,16 @@ LDLIBS += -lgsl -lgslcblas -lm
 RM = rm -f
 
 
-# Platform specific stuff for building the shared library
-ifeq ($(UNAME_S), Darwin)  # macOS
-    RPATH = -Wl,-rpath,$(KARIBA)
-else ifeq ($(UNAME_S), Linux)
-    RPATH = -Wl,-rpath,$(KARIBA)
-endif
-
 # Kariba library
 LIBKARIBA = $(KARIBA)/libkariba.a
 LIBPATH = $(shell dirname $(realpath $(LIBKARIBA)))
-LIBSHARED = -L$(LIBPATH) -Wl,-rpath,$(LIBPATH) -lkariba
+#LIBSHARED = -L$(LIBPATH) -Wl,-rpath,$(LIBPATH) -lkariba
+LIBSHARED = -L$(DESTDIR)$(PREFIX)/lib -lkariba
 
 SOURCES = test_bknpower.cpp test_compton.cpp test_cyclosyn.cpp test_distributions.cpp test_ebl.cpp test_particles.cpp test_powerlaw.cpp test_radiation.cpp
 OBJECTS = $(subst .cpp,.o,$(SOURCES))
 MAIN_OBJ = test_main.cpp
-TEST_MAIN = test_main
+TEST_MAIN = kariba_test
 
 
 .PHONY: all tests main clean distclean
@@ -52,12 +46,15 @@ main: $(OBJECTS) $(MAIN_OBJ)
 	$(LD) -o $(TEST_MAIN) $(OBJECTS) $(MAIN_OBJ) $(LDFLAGS) $(LIBKARIBA) $(LDLIBS)
 
 # Unit tests that use the shared library version
-shared: $(OBJETS) $(MAIN_OBJ)
+shared: $(OBJECTS) $(MAIN_OBJ)
 	$(LD) -o $(TEST_MAIN) $(OBJECTS) $(MAIN_OBJ) $(LDFLAGS) $(LIBSHARED) $(LDLIBS)
 
+install: shared
+	install -d $(DESTDIR)$(PREFIX)/bin/
+	install -m 755 $(TEST_MAIN) $(DESTDIR)$(PREFIX)/bin/
 
 clean:
 	$(RM) $(OBJECTS)
 
 distclean: clean
-	$(RM) $(ALL_TESTS)
+	$(RM) $(TEST_MAIN)
