@@ -15,10 +15,10 @@ endif
 UNAME := $(shell uname -s)
 
 CXXFLAGS += $(OPENMP)
-CPPFLAGS = $(GSL_CPPFLAGS)
+CPPFLAGS += $(GSL_CPPFLAGS)
 LD = $(CXX)
-LDFLAGS = $(OPENMP) $(GSL_LDFLAGS) $(EXTRA_LDFLAGS)
-LDLIBS = -lgsl -lgslcblas -lm
+LDFLAGS += $(OPENMP) $(GSL_LDFLAGS) $(EXTRA_LDFLAGS)
+LDLIBS += -lgsl -lgslcblas -lm
 AR = ar
 AR_OPTS = rcs
 RM = rm -f
@@ -56,9 +56,9 @@ else ifeq ($(UNAME), Linux)
 	$(LD) -shared -fPIC -o $(LIBSHARED) $(LDFLAGS) $(OBJECTS) $(LDLIBS) -Wl,-soname,$(LIBSHARED)
 endif
 
-install:
+install: shared
 	install -d $(DESTDIR)$(PREFIX)/lib/
-	install -m 644 libkariba.a $(LIBSHARED) $(DESTDIR)$(PREFIX)/lib/
+	install -m 644 libkariba.$(DYN_EXT) $(LIBSHARED) $(DESTDIR)$(PREFIX)/lib/
 	install -d $(DESTDIR)$(PREFIX)/include/kariba/
 	install -m 644 kariba/*.hpp $(DESTDIR)$(PREFIX)/include/kariba/
 

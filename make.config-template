@@ -14,14 +14,16 @@ GSL =
 # If you are using OpenMP, make sure the compiler is
 # OpenMP compatible, that is, it can handle the -fopenmp
 # option
-CXX = c++
+ifndef CXX
+       CXX = c++
+endif
 
 # Set compiler flags: standard, optimization level, warnings, etc Note
 # that -Ofast is deprecated by CLang++, and should be be `-O3
 # -ffast-math` instead; using only `-O3` is safer anyway.
 # The -fopenmp flag should not be set here, but specified using
 # the OPENMP variable below
-CXXFLAGS = -std=c++17 -Wall -Wextra -Wconversion -O3 -fPIC
+CXXFLAGS += -std=c++17 -Wall -Wextra -Wconversion -O3 -fPIC
 
 # Set the following variable to the -fopenmp to use OpenMP.
 # If unset or empty, OpenMP will not be used in the compilation
