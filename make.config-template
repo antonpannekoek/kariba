@@ -14,9 +14,7 @@ GSL =
 # If you are using OpenMP, make sure the compiler is
 # OpenMP compatible, that is, it can handle the -fopenmp
 # option
-ifndef CXX
-       CXX = c++
-endif
+#CXX = c++
 
 # Set compiler flags: standard, optimization level, warnings, etc Note
 # that -Ofast is deprecated by CLang++, and should be be `-O3
