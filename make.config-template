@@ -4,10 +4,11 @@
 # This option is mainly for semi-external installations, such as
 # through Homebrew on macOS. For Homebrew, this may be something like
 # GSL = /opt/Homebrew/Cellar/gsl/2.8
-GSL =
+#GSL =
 
 # Installation prefix: directory where to optionally install the
 # library and its header files
+# Make sure this is an absolute path
 #PREFIX = /usr/local/
 
 # The CXX variable should be set to your C++ compiler
