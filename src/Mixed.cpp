@@ -105,30 +105,6 @@ void Mixed::set_norm(double n) {
              (std::pow(pmax_pl, (1. - pspec)) - std::pow(pmin_pl, (1. - pspec)));
 }
 
-//! Injection function to be integrated in cooling
-double injection_mixed_int(double x, void* pars) {
-    InjectionMixedParams* params = static_cast<InjectionMixedParams*>(pars);
-    double s = params->s;
-    double t = params->t;
-    double nth = params->nth;
-    double npl = params->npl;
-    double m = params->m;
-    double min = params->min;
-    double max = params->max;
-    double cutoff = params->cutoff;
-
-    double mom_int = std::pow(std::pow(x, 2.) - 1., 1. / 2.) * m * constants::cee;
-
-    if (x <= min) {
-        return nth * std::pow(mom_int, 2.) * std::exp(-x / t);
-    } else if (x < max) {
-        return nth * std::pow(mom_int, 2.) * std::exp(-x / t) +
-               npl * std::pow(mom_int, -s) * std::exp(-mom_int / cutoff);
-    } else {
-        return npl * std::pow(mom_int, -s) * std::exp(-mom_int / cutoff);
-    }
-}
-
 //! Method to solve steady state continuity equation. NOTE: KN cross section not
 //! included in IC cooling
 void Mixed::cooling_steadystate(double ucom, double n0, double bfield, double r, double betaeff) {
@@ -332,6 +308,30 @@ void Mixed::test() {
     std::cout << "Number density: " << count_particles() << std::endl;
     std::cout << "Thermal monetum limits: " << pmin_th << " " << pmax_th << std::endl;
     std::cout << "Non-thermal momentum limits: " << pmin_pl << " " << pmax_pl << std::endl;
+}
+
+//! Injection function to be integrated in cooling
+double injection_mixed_int(double x, void* pars) {
+    InjectionMixedParams* params = static_cast<InjectionMixedParams*>(pars);
+    double s = params->s;
+    double t = params->t;
+    double nth = params->nth;
+    double npl = params->npl;
+    double m = params->m;
+    double min = params->min;
+    double max = params->max;
+    double cutoff = params->cutoff;
+
+    double mom_int = std::pow(std::pow(x, 2.) - 1., 1. / 2.) * m * constants::cee;
+
+    if (x <= min) {
+        return nth * std::pow(mom_int, 2.) * std::exp(-x / t);
+    } else if (x < max) {
+        return nth * std::pow(mom_int, 2.) * std::exp(-x / t) +
+               npl * std::pow(mom_int, -s) * std::exp(-mom_int / cutoff);
+    } else {
+        return npl * std::pow(mom_int, -s) * std::exp(-mom_int / cutoff);
+    }
 }
 
 }    // namespace kariba

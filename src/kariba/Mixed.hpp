@@ -64,4 +64,6 @@ class Mixed : public Particles {
     friend double av_pl_p_int(double x, void* p);
 };
 
+double injection_mixed_int(double x, void* pars);
+
 }    // namespace kariba
