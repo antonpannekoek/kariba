@@ -33,12 +33,13 @@ class Grays : public Radiation {
     //! ntot_prot: total proton number density of the jet segment,
     //! ntargets: the number density of external proton density (companion etc),
     //! plfrac: plfrac_p
-    void set_grays_pp(double p, double gammap_min, double gammap_max, double ntot_prot,
-                      double ntargets, double plfrac, gsl_interp_accel* acc_Jp,
-                      gsl_spline* spline_Jp);
+    virtual void set_grays_pp(double p, double gammap_min, double gammap_max, double ntot_prot,
+                              double ntargets, double plfrac, gsl_interp_accel* acc_Jp,
+                              gsl_spline* spline_Jp);
 
-    void set_grays_pg(double gp_min, double gp_max, gsl_interp_accel* acc_Jp, gsl_spline* spline_Jp,
-                      std::vector<double>& nu_per_seg, std::vector<double>& ng_per_seg, size_t ne);
+    virtual void set_grays_pg(double gp_min, double gp_max, gsl_interp_accel* acc_Jp,
+                              gsl_spline* spline_Jp, std::vector<double>& nu_per_seg,
+                              std::vector<double>& ng_per_seg, size_t ne);
 };
 
 //! Adds up in the lum_perseg the target photon luminosity (in erg/sec/Hz)

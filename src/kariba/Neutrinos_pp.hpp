@@ -13,10 +13,10 @@ class Neutrinos_pp : public Radiation {
   public:
     Neutrinos_pp(size_t size, double Emin, double Emax);
 
-    void set_neutrinos_pp(double p, double gammap_min, double gammap_max, double ntot_prot,
-                          double nwind, double plfrac, gsl_interp_accel* acc_Jp,
-                          gsl_spline* spline_Jp, const std::string& outputConfiguration,
-                          const std::string& flavor, int infosw, std::string_view source);
+    virtual void set_neutrinos_pp(double p, double gammap_min, double gammap_max, double ntot_prot,
+                                  double nwind, double plfrac, gsl_interp_accel* acc_Jp,
+                                  gsl_spline* spline_Jp, const std::string& outputConfiguration,
+                                  const std::string& flavor, int infosw, std::string_view source);
 };
 
 double multiplicity(double pspec);    // in Electrons.cpp

@@ -12,14 +12,14 @@ class Thermal : public Particles {
   public:
     Thermal(size_t size);
 
-    void set_p();
-    void set_ndens();
-    void set_temp_kev(double T);
-    void set_norm(double n);
+    virtual void set_p();
+    virtual void set_ndens();
+    virtual void set_temp_kev(double T);
+    virtual void set_norm(double n);
 
-    double K2(double x);
+    virtual double K2(double x);
 
-    void test();
+    virtual void test();
 };
 
 }    // namespace kariba

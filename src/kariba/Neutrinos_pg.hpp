@@ -29,11 +29,11 @@ class Neutrinos_pg : public Radiation {
   public:
     Neutrinos_pg(size_t size, double Emin, double Emax);
 
-    void set_neutrinos(double gp_min, double gp_max, gsl_interp_accel* acc_Jp,
-                       gsl_spline* spline_Jp, const std::vector<double>& en_perseg,
-                       const std::vector<double>& lum_perseg, size_t nphot,
-                       const std::string& outputConfiguration, const std::string& flavor,
-                       int infosw, std::string_view source);
+    virtual void set_neutrinos(double gp_min, double gp_max, gsl_interp_accel* acc_Jp,
+                               gsl_spline* spline_Jp, const std::vector<double>& en_perseg,
+                               const std::vector<double>& lum_perseg, size_t nphot,
+                               const std::string& outputConfiguration, const std::string& flavor,
+                               int infosw, std::string_view source);
 };
 
 double Heta(double x, void* p);
