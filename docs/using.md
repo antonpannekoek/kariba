@@ -122,7 +122,11 @@ For parts where you want to extend functionality, there may be a few ways to go 
 
 ### Extend or change class functionality (e.g., a member function)
 
-If you want to add or change the behaviour of a function of a particular Kariba class, you can do that fairly easily: use the C++ inheritance abilities to create a new class, inheriting from an existing Kariba class you'd like to extend, then add the new function, or override an existing function.
+If you want to add or change the behaviour of a function of a
+particular Kariba class, you can do that fairly easily: use the C++
+inheritance abilities to create a new class, inheriting from an
+existing Kariba class you'd like to extend, then add the new function,
+or override an existing function.
 
 As an example, let's say we want to change the `set_p()` member
 function of the `kariba::Thermal` class. The minimum and maximum
@@ -144,10 +148,12 @@ So create a new header file (or add to an existing one), and include the followi
 
 class Thermal2 : public Thermal {
   public:
-    // inherit constructors; only works if there are new extra member variables to initialize
+    // inherit constructors; necessary if there
+	// are member variables to initialize
+	// in the constructor
     using Thermal::Thermal;
 
-    void set_p();
+    void set_p() override;
 };
 ```
 
@@ -195,12 +201,82 @@ When inheriting, be aware of the access priviliges:
   if there's only one constructor, which is the case in all Kariba
   classes, this doesn't matter).
 
+Important to note is the use of the `override` keyword at the end of
+the definition of the overridden member function. This indicates to
+the compiler this function is overridden from the base class. This can
+prevent errors: if you accidentally had changed the function signature
+(e.g., `void set_p(int)`), you wouldn't override the base class member
+function, but you would have overloaded it, and there would suddenly
+be two, different, `set_p` functions. With the `override` keyword
+after the function declaration, the compiler catches this, as there'll
+need to be a base class function with the exact same signature. So
+`override` serves as a safety net for the programmer. It is actually
+not mandatory to use `override`, and the compiler will happily compile
+the code without it, whether the function is overridden or overloaded,
+but it won't distinguish between the two variants, and will not warn
+the programmer about it.
+
+### Overloading member functions
+
+You can also *overload* functions from a base class, by using the same
+function name with a different signature (e.g., different
+arguments). This can be convenient if you have a function that
+requires some extra arguments.
+
+As a bonus, if you want, you can then call the original (base class)
+function from your new function, and wrap some code around it.
+
+In our above example, this would like the following for our derived
+class:
+
+```
+#include <kariba/Thermal>
+
+class Thermal2 : public Thermal {
+  public:
+    // inherit constructors; necessary if there
+	// are member variables to initialize
+	// in the constructor
+    using Thermal::Thermal;
+
+    using Thermal::set_p;  // important!
+    void set_p(int n);
+};
+```
+
+and then in the definition of `Thermal2::set_p`:
+
+```
+void Thermal2::set_p(int n) {
+	// irrelevant loop to demonstrate wrapping the base set_p
+	
+	for (int i = 0; i < n; ++i) {
+	    set_p();  // calls the base function, inferred from the lack of argument
+    }
+}
+```
+
+Note how `Thermal2::set_p` calls `Thermal::set_p`, by virtue of the
+two functions having different arguments.
+
+The `using Thermal::set_p` in the declaration of `Thermal2` is very
+important; without it, any base member functions called `set_p` are
+not recognised by the overriden `set_p`, and `Thermal2` would only
+know about its own `set_p`, not about the base `set_p`
+function(s). This is not too dissimilar from the `using
+Thermal::Thermal` seen earlier for the constructor.
+
+
+And yes, you can of course overload *and* override functions from the
+base class. So if you have `set_p(int)` and `set_p() override` in
+`Thermal2`, with the same definition for `set_p(int)` as above, it
+would now call the local `Thermal2::set_p(int)` instead.
 
 -----
 
 Logically, perhaps, the lower and upper boundary factors should be
-arguments in `set_p()`, perhaps with default settings of 1/100 and
-20. Which leads to the third variant of working with Kariba: extending
+arguments in `set_p()`, perhaps with default settings of 1/100 and 20. 
+Which leads to the third variant of working with Kariba: extending
 the library, adding improvements or simply fixing bugs
 
 
