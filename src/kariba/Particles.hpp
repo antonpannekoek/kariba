@@ -88,29 +88,29 @@ class Particles {
   public:
     Particles(size_t size);
 
-    void set_mass(double m);
-    void initialize_gdens();
-    void initialize_pdens();
-    void gdens_differentiate();
+    virtual void set_mass(double m);
+    virtual void initialize_gdens();
+    virtual void initialize_pdens();
+    virtual void gdens_differentiate();
 
-    const std::vector<double>& get_p() const { return p; }
+    virtual const std::vector<double>& get_p() const { return p; }
 
-    const std::vector<double>& get_pdens() const { return ndens; }
+    virtual const std::vector<double>& get_pdens() const { return ndens; }
 
-    const std::vector<double>& get_gamma() const { return gamma; }
+    virtual const std::vector<double>& get_gamma() const { return gamma; }
 
-    const std::vector<double>& get_gdens() const { return gdens; }
+    virtual const std::vector<double>& get_gdens() const { return gdens; }
 
-    const std::vector<double>& get_gdens_diff() const { return gdens_diff; }
+    virtual const std::vector<double>& get_gdens_diff() const { return gdens_diff; }
 
-    double count_particles();
-    double count_particles_energy();
-    double av_p();
-    double av_gamma();
-    double av_psq();
-    double av_gammasq();
+    virtual double count_particles();
+    virtual double count_particles_energy();
+    virtual double av_p();
+    virtual double av_gamma();
+    virtual double av_psq();
+    virtual double av_gammasq();
 
-    void test_arrays();
+    virtual void test_arrays();
 };
 
 }    // namespace kariba

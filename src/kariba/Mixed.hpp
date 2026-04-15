@@ -32,33 +32,36 @@ class Mixed : public Particles {
   public:
     Mixed(size_t size);
 
-    void set_p(double ucom, double bfield, double betaeff, double r, double fsc);
-    void set_p(double gmax);
-    void set_ndens();
-    void set_temp_kev(double T);
-    void set_norm(double n);
-    void set_plfrac(double f);
-    void set_plfrac(double Le, double r, double eldens);
-    void set_pspec(double s1);
+    virtual void set_p(double ucom, double bfield, double betaeff, double r, double fsc);
+    virtual void set_p(double gmax);
+    virtual void set_ndens();
+    virtual void set_temp_kev(double T);
+    virtual void set_norm(double n);
+    virtual void set_plfrac(double f);
+    virtual void set_plfrac(double Le, double r, double eldens);
+    virtual void set_pspec(double s1);
 
-    void cooling_steadystate(double ucom, double n0, double bfield, double r, double betaeff);
-    double max_p(double ucom, double bfield, double betaeff, double r, double fsc);
+    virtual void cooling_steadystate(double ucom, double n0, double bfield, double r,
+                                     double betaeff);
+    virtual double max_p(double ucom, double bfield, double betaeff, double r, double fsc);
+
+    virtual double count_th_particles();
+    virtual double av_th_p();
+    virtual double av_th_gamma();
+
+    virtual double count_pl_particles();
+    virtual double av_pl_p();
+    virtual double av_pl_gamma();
+
+    virtual double K2(double x);
+
+    virtual void test();
 
     friend double th_num_dens_int(double x, void* p);
     friend double av_th_p_int(double x, void* p);
-    double count_th_particles();
-    double av_th_p();
-    double av_th_gamma();
 
     friend double pl_num_dens_int(double x, void* p);
     friend double av_pl_p_int(double x, void* p);
-    double count_pl_particles();
-    double av_pl_p();
-    double av_pl_gamma();
-
-    double K2(double x);
-
-    void test();
 };
 
 }    // namespace kariba

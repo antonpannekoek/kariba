@@ -84,26 +84,26 @@ class Radiation {
   public:
     Radiation(size_t size);
 
-    const std::vector<double>& get_energy() const { return en_phot; }
+    virtual const std::vector<double>& get_energy() const { return en_phot; }
 
-    const std::vector<double>& get_nphot() const { return num_phot; }
+    virtual const std::vector<double>& get_nphot() const { return num_phot; }
 
-    const std::vector<double>& get_energy_obs() const { return en_phot_obs; }
+    virtual const std::vector<double>& get_energy_obs() const { return en_phot_obs; }
 
-    const std::vector<double>& get_nphot_obs() const { return num_phot_obs; }
+    virtual const std::vector<double>& get_nphot_obs() const { return num_phot_obs; }
 
-    size_t get_size() const { return en_phot.size(); }
+    virtual size_t get_size() const { return en_phot.size(); }
 
-    double get_volume() const { return vol; }
+    virtual double get_volume() const { return vol; }
 
-    double integrated_luminosity(double numin, double numax);
+    virtual double integrated_luminosity(double numin, double numax);
 
-    void set_beaming(double theta, double speed, double doppler);
-    void set_inclination(double theta);
-    void set_geometry(const std::string& geom, double l1, double l2);
-    void set_geometry(const std::string& geom, double l1);
+    virtual void set_beaming(double theta, double speed, double doppler);
+    virtual void set_inclination(double theta);
+    virtual void set_geometry(const std::string& geom, double l1, double l2);
+    virtual void set_geometry(const std::string& geom, double l1);
 
-    void set_counterjet(bool flag);
-    void test_arrays();
+    virtual void set_counterjet(bool flag);
+    virtual void test_arrays();
 };
 }    // namespace kariba
