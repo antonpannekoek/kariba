@@ -10,6 +10,6 @@ var searchData=
   ['test_5farrays_7',['test_arrays',['../classkariba_1_1Particles.html#a35be592af8c09e8547acef4f3fa8baba',1,'kariba::Particles::test_arrays()'],['../classkariba_1_1Radiation.html#a4407d16ad5414c7962ddb01b1b26b1f5',1,'kariba::Radiation::test_arrays()']]],
   ['th_5fnum_5fdens_5fint_8',['th_num_dens_int',['../namespacekariba.html#a83f94fd4e32c302c7c08918334f396e1',1,'kariba']]],
   ['thermal_9',['Thermal',['../classkariba_1_1Thermal.html#ab5e7a928eb3c579705a5e467682d093a',1,'kariba::Thermal']]],
-  ['tin_10',['tin',['../classkariba_1_1ShSDisk.html#a646e2b7ef313f0eb4b61dfedfac64047',1,'kariba::ShSDisk']]],
+  ['tin_10',['tin',['../classkariba_1_1ShSDisk.html#a19b263e23c6f8c8e01def0cb2ba53893',1,'kariba::ShSDisk']]],
   ['total_5fluminosity_11',['total_luminosity',['../classkariba_1_1ShSDisk.html#af86dd7ceafce32f6f839a6de46014ca4',1,'kariba::ShSDisk']]]
 ];

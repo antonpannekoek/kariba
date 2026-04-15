@@ -4,7 +4,7 @@ var searchData=
   ['unit_20testing_1',['Unit testing',['../md_considerations.html#autotoc_md21',1,'']]],
   ['unit_20tests_2',['unit tests',['../md_testing.html#autotoc_md46',1,'Unit tests'],['../md_style-and-tips.html#autotoc_md43',1,'Unit tests']]],
   ['up_20the_20installation_3',['Set up the installation',['../md_installation.html#autotoc_md27',1,'']]],
-  ['updating_20the_20pull_20request_4',['Updating the pull request',['../md_using.html#autotoc_md59',1,'']]],
+  ['updating_20the_20pull_20request_4',['Updating the pull request',['../md_using.html#autotoc_md60',1,'']]],
   ['urad_5',['Urad',['../classkariba_1_1BBody.html#ae03634b2995f54e88530b41fc8e11c53',1,'kariba::BBody']]],
   ['urad_5ftest_6',['urad_test',['../classkariba_1_1Compton.html#ae2d7025bacb82a69763e11b9673699e0',1,'kariba::Compton']]],
   ['use_20of_20tt_20auto_20tt_7',['Use of &lt;tt&gt;auto&lt;/tt&gt;',['../md_considerations.html#autotoc_md20',1,'']]],

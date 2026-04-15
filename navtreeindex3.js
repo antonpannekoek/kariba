@@ -35,11 +35,12 @@ var NAVTREEINDEX3 =
 "md_using.html#autotoc_md51":[6,0,0],
 "md_using.html#autotoc_md52":[6,0,1],
 "md_using.html#autotoc_md53":[6,0,1,0],
-"md_using.html#autotoc_md55":[6,0,2],
-"md_using.html#autotoc_md56":[6,0,2,0],
-"md_using.html#autotoc_md57":[6,0,2,1],
-"md_using.html#autotoc_md58":[6,0,2,2],
-"md_using.html#autotoc_md59":[6,0,2,3],
+"md_using.html#autotoc_md54":[6,0,1,1],
+"md_using.html#autotoc_md56":[6,0,2],
+"md_using.html#autotoc_md57":[6,0,2,0],
+"md_using.html#autotoc_md58":[6,0,2,1],
+"md_using.html#autotoc_md59":[6,0,2,2],
+"md_using.html#autotoc_md60":[6,0,2,3],
 "namespacekariba.html":[7,0,0],
 "namespacekariba.html#a000b6af7e2430b4db10b8bca037945a8":[7,0,0,67],
 "namespacekariba.html#a00d650af6183e4535e813c081af75079":[7,0,0,54],
@@ -248,6 +249,5 @@ var NAVTREEINDEX3 =
 "structkariba_1_1HetagParams.html#a5878b91d886015b628efb3fb31ce2f60":[8,0,0,12,1],
 "structkariba_1_1HetagParams.html#a5878b91d886015b628efb3fb31ce2f60":[7,0,0,13,1],
 "structkariba_1_1HetagParams.html#a717d68036e37f28fa430d6fba9d25f87":[8,0,0,12,2],
-"structkariba_1_1HetagParams.html#a717d68036e37f28fa430d6fba9d25f87":[7,0,0,13,2],
-"structkariba_1_1HetagParams.html#a9683b661b3831dc4d46cc0c08c2e6758":[7,0,0,13,6]
+"structkariba_1_1HetagParams.html#a717d68036e37f28fa430d6fba9d25f87":[7,0,0,13,2]
 };

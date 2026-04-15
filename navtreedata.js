@@ -96,13 +96,14 @@ var NAVTREE =
       [ "Using and developing with or for the Kariba library", "md_using.html#autotoc_md50", [
         [ "Creating your own model using the library", "md_using.html#autotoc_md51", null ],
         [ "Creating your own model using the library, extending some parts of the library", "md_using.html#autotoc_md52", [
-          [ "Extend or change class functionality (e.g., a member function)", "md_using.html#autotoc_md53", null ]
+          [ "Extend or change class functionality (e.g., a member function)", "md_using.html#autotoc_md53", null ],
+          [ "Overloading member functions", "md_using.html#autotoc_md54", null ]
         ] ],
-        [ "Improve, extend or fix a bug in the library", "md_using.html#autotoc_md55", [
-          [ "Git setup", "md_using.html#autotoc_md56", null ],
-          [ "Create a branch and add your changes", "md_using.html#autotoc_md57", null ],
-          [ "Push the branch and create a pull request", "md_using.html#autotoc_md58", null ],
-          [ "Updating the pull request", "md_using.html#autotoc_md59", null ]
+        [ "Improve, extend or fix a bug in the library", "md_using.html#autotoc_md56", [
+          [ "Git setup", "md_using.html#autotoc_md57", null ],
+          [ "Create a branch and add your changes", "md_using.html#autotoc_md58", null ],
+          [ "Push the branch and create a pull request", "md_using.html#autotoc_md59", null ],
+          [ "Updating the pull request", "md_using.html#autotoc_md60", null ]
         ] ]
       ] ]
     ] ],

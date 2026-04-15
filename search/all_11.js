@@ -51,7 +51,7 @@ var searchData=
   ['set_5ftemp_5fkev_48',['set_temp_kev',['../classkariba_1_1BBody.html#a5b592a2ba39cdf7800034e96d3c219ee',1,'kariba::BBody::set_temp_kev()'],['../classkariba_1_1Kappa.html#a9145b785e255c6a3a678f720eb3d019f',1,'kariba::Kappa::set_temp_kev()'],['../classkariba_1_1Mixed.html#a3b901e82ae43450932f6a7c725d9a1b9',1,'kariba::Mixed::set_temp_kev()'],['../classkariba_1_1Thermal.html#ad93d657a60f29ae36b240d9ec5ba3c7a',1,'kariba::Thermal::set_temp_kev()']]],
   ['set_5ftin_5fk_49',['set_tin_k',['../classkariba_1_1ShSDisk.html#aec4787087de42acb4481db9a64ce71da',1,'kariba::ShSDisk']]],
   ['set_5ftin_5fkev_50',['set_tin_kev',['../classkariba_1_1ShSDisk.html#ab9f5c39f549c040be949528c8d2e1b37',1,'kariba::ShSDisk']]],
-  ['setup_51',['Git setup',['../md_using.html#autotoc_md56',1,'']]],
+  ['setup_51',['Git setup',['../md_using.html#autotoc_md57',1,'']]],
   ['shsdisk_52',['shsdisk',['../classkariba_1_1ShSDisk.html',1,'kariba::ShSDisk'],['../classkariba_1_1ShSDisk.html#a03cf5c5cc68badbfc62b31f62b61a034',1,'kariba::ShSDisk::ShSDisk()']]],
   ['shsdisk_2ecpp_53',['ShSDisk.cpp',['../ShSDisk_8cpp.html',1,'']]],
   ['shsdisk_2ehpp_54',['ShSDisk.hpp',['../ShSDisk_8hpp.html',1,'']]],

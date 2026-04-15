@@ -1,12 +1,12 @@
 var classkariba_1_1Radiation =
 [
     [ "Radiation", "classkariba_1_1Radiation.html#a72c26090e16d3a8a34fe1aedb22bf126", null ],
-    [ "get_energy", "classkariba_1_1Radiation.html#ab33942a986729d152f9483d673db436d", null ],
-    [ "get_energy_obs", "classkariba_1_1Radiation.html#a50646f78ae071e5265f7248a3cb74d04", null ],
-    [ "get_nphot", "classkariba_1_1Radiation.html#a865f9fcd54a4f4c97030449af5a25a95", null ],
-    [ "get_nphot_obs", "classkariba_1_1Radiation.html#a0721da02683cd9952685126ebca42162", null ],
-    [ "get_size", "classkariba_1_1Radiation.html#a74bee41e08d3953fc56243912de4d07e", null ],
-    [ "get_volume", "classkariba_1_1Radiation.html#a4c89cab9323faa3afdd6da5332bae64b", null ],
+    [ "get_energy", "classkariba_1_1Radiation.html#aab791e9ddfdf2415ee42e0ae929f8e23", null ],
+    [ "get_energy_obs", "classkariba_1_1Radiation.html#ad415eab30fa38bc1dc2185726ed58983", null ],
+    [ "get_nphot", "classkariba_1_1Radiation.html#afe65e6e50bf0578516101e3baaa03f1a", null ],
+    [ "get_nphot_obs", "classkariba_1_1Radiation.html#afd9f3b568e739b56304e7ba4de40dd71", null ],
+    [ "get_size", "classkariba_1_1Radiation.html#a08334980e5f370c6e0948f78abb18312", null ],
+    [ "get_volume", "classkariba_1_1Radiation.html#ad3b151f231d2eef60a8e9539eb034a18", null ],
     [ "integrated_luminosity", "classkariba_1_1Radiation.html#a20ac53371ada2e937db6ab2feb484deb", null ],
     [ "set_beaming", "classkariba_1_1Radiation.html#a74e432e75b4be7a8387019898d6691ad", null ],
     [ "set_counterjet", "classkariba_1_1Radiation.html#ac90e0921b7b766ba24a2e96134f82767", null ],

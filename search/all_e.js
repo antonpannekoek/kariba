@@ -39,6 +39,6 @@ var searchData=
   ['pspec_36',['pspec',['../classkariba_1_1Powerlaw.html#a5e766e684e8d0b86429292b716489680',1,'kariba::Powerlaw::pspec'],['../classkariba_1_1Mixed.html#a8ec2a987fd120037fbca3362f670902f',1,'kariba::Mixed::pspec']]],
   ['pspec1_37',['pspec1',['../classkariba_1_1Bknpower.html#aa98a53e063d33b05a698e142d9487500',1,'kariba::Bknpower']]],
   ['pspec2_38',['pspec2',['../classkariba_1_1Bknpower.html#acc9477f73727a683c6f31d636468e48a',1,'kariba::Bknpower']]],
-  ['pull_20request_39',['pull request',['../md_using.html#autotoc_md58',1,'Push the branch and create a pull request'],['../md_using.html#autotoc_md59',1,'Updating the pull request']]],
-  ['push_20the_20branch_20and_20create_20a_20pull_20request_40',['Push the branch and create a pull request',['../md_using.html#autotoc_md58',1,'']]]
+  ['pull_20request_39',['pull request',['../md_using.html#autotoc_md59',1,'Push the branch and create a pull request'],['../md_using.html#autotoc_md60',1,'Updating the pull request']]],
+  ['push_20the_20branch_20and_20create_20a_20pull_20request_40',['Push the branch and create a pull request',['../md_using.html#autotoc_md59',1,'']]]
 ];

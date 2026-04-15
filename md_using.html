@@ -148,10 +148,12 @@ Extend or change class functionality (e.g., a member function)</h3>
 <div class="line"> </div>
 <div class="line">class Thermal2 : public Thermal {</div>
 <div class="line">  public:</div>
-<div class="line">    // inherit constructors; only works if there are new extra member variables to initialize</div>
+<div class="line">    // inherit constructors; necessary if there</div>
+<div class="line">    // are member variables to initialize</div>
+<div class="line">    // in the constructor</div>
 <div class="line">    using Thermal::Thermal;</div>
 <div class="line"> </div>
-<div class="line">    void set_p();</div>
+<div class="line">    void set_p() override;</div>
 <div class="line">};</div>
 </div><!-- fragment --><p>and in a source file, define the class and implement the overriddend function:</p>
 <div class="fragment"><div class="line">#include &quot;thermal2.hpp&quot;</div>
@@ -171,15 +173,42 @@ Extend or change class functionality (e.g., a member function)</h3>
 <li>member functions, overridden or newly added, should practically always be <code>public</code>.</li>
 <li>the <code>using Thermal::Thermal</code> tells the compiler that <code>Thermal2</code> should use the matching constructor from <code>Thermal</code> to initialize the class and its member variables (matching here means, by arguments; if there's only one constructor, which is the case in all Kariba classes, this doesn't matter).</li>
 </ul>
+<p>Important to note is the use of the <code>override</code> keyword at the end of the definition of the overridden member function. This indicates to the compiler this function is overridden from the base class. This can prevent errors: if you accidentally had changed the function signature (e.g., <code>void set_p(int)</code>), you wouldn't override the base class member function, but you would have overloaded it, and there would suddenly be two, different, <code>set_p</code> functions. With the <code>override</code> keyword after the function declaration, the compiler catches this, as there'll need to be a base class function with the exact same signature. So <code>override</code> serves as a safety net for the programmer. It is actually not mandatory to use <code>override</code>, and the compiler will happily compile the code without it, whether the function is overridden or overloaded, but it won't distinguish between the two variants, and will not warn the programmer about it.</p>
+<h3><a class="anchor" id="autotoc_md54"></a>
+Overloading member functions</h3>
+<p>You can also <em>overload</em> functions from a base class, by using the same function name with a different signature (e.g., different arguments). This can be convenient if you have a function that requires some extra arguments.</p>
+<p>As a bonus, if you want, you can then call the original (base class) function from your new function, and wrap some code around it.</p>
+<p>In our above example, this would like the following for our derived class:</p>
+<div class="fragment"><div class="line">#include &lt;kariba/Thermal&gt;</div>
+<div class="line"> </div>
+<div class="line">class Thermal2 : public Thermal {</div>
+<div class="line">  public:</div>
+<div class="line">    // inherit constructors; necessary if there</div>
+<div class="line">    // are member variables to initialize</div>
+<div class="line">    // in the constructor</div>
+<div class="line">    using Thermal::Thermal;</div>
+<div class="line"> </div>
+<div class="line">    using Thermal::set_p;  // important!</div>
+<div class="line">    void set_p(int n);</div>
+<div class="line">};</div>
+</div><!-- fragment --><p>and then in the definition of <code>Thermal2::set_p</code>:</p>
+<div class="fragment"><div class="line">void Thermal2::set_p(int n) {</div>
+<div class="line">    // irrelevant loop to demonstrate wrapping the base set_p</div>
+<div class="line">    </div>
+<div class="line">    for (int i = 0; i &lt; n; ++i) {</div>
+<div class="line">        set_p();  // calls the base function, inferred from the lack of argument</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+</div><!-- fragment --><p>Note how <code>Thermal2::set_p</code> calls <code>Thermal::set_p</code>, by virtue of the two functions having different arguments.</p>
+<p>The <code>using Thermal::set_p</code> in the declaration of <code>Thermal2</code> is very important; without it, any base member functions called <code>set_p</code> are not recognised by the overriden <code>set_p</code>, and <code>Thermal2</code> would only know about its own <code>set_p</code>, not about the base <code>set_p</code> function(s). This is not too dissimilar from the <code>using Thermal::Thermal</code> seen earlier for the constructor.</p>
+<p>And yes, you can of course overload <em>and</em> override functions from the base class. So if you have <code>set_p(int)</code> and <code>set_p() override</code> in <code>Thermal2</code>, with the same definition for <code>set_p(int)</code> as above, it would now call the local <code>Thermal2::set_p(int)</code> instead.</p>
 <hr  />
-<p>Logically, perhaps, the lower and upper boundary factors should be arguments in <code>set_p()</code>, perhaps with default settings of 1/100 and</p><ol type="1">
-<li>Which leads to the third variant of working with Kariba: extending the library, adding improvements or simply fixing bugs</li>
-</ol>
-<h2><a class="anchor" id="autotoc_md55"></a>
+<p>Logically, perhaps, the lower and upper boundary factors should be arguments in <code>set_p()</code>, perhaps with default settings of 1/100 and 20. Which leads to the third variant of working with Kariba: extending the library, adding improvements or simply fixing bugs</p>
+<h2><a class="anchor" id="autotoc_md56"></a>
 Improve, extend or fix a bug in the library</h2>
 <p>In this case, you'll work directly in the Kariba repository. However, do this on a new branch.</p>
 <p>These changes should be for long-term changes; if you have something that is for a specific or temporary case, use the workflow in the section above.</p>
-<h3><a class="anchor" id="autotoc_md56"></a>
+<h3><a class="anchor" id="autotoc_md57"></a>
 Git setup</h3>
 <p>First, check that you actually have and use a (GitHub) fork of the library. On GitHub, fork the repository. Then, copy the URL for the SSH-variant of the cod of your fork.</p>
 <p>Now, back in the terminal on your local machine, check the remotes of the Kariba library:</p>
@@ -191,11 +220,11 @@ Git setup</h3>
 <p>Now add the URL to the original Kariba repository as an upstream:</p>
 <div class="fragment"><div class="line">git remote set-url origin https//github.com/kariba/kariba.git</div>
 </div><!-- fragment --><p>Check <code>git remote -v</code> again to see that the URLs and names now match as mentioned above.</p>
-<h3><a class="anchor" id="autotoc_md57"></a>
+<h3><a class="anchor" id="autotoc_md58"></a>
 Create a branch and add your changes</h3>
 <p>Create a separate branch, from the main branch, and add your changes there.</p>
 <p>When finished, test that the library still builds, and that the unit tests and examples still build and run. If there was a fix that changes the outcome of a function, update the unit test accordingly (just be sure that your change is correct). If you added a function, add one or a few unit tests that specifically test this function.</p>
-<h3><a class="anchor" id="autotoc_md58"></a>
+<h3><a class="anchor" id="autotoc_md59"></a>
 Push the branch and create a pull request</h3>
 <p>Once everything is commit (you can easily make multipe small commits if it makes sense), first check that you are still up to date with the upstream repository. Pull in any changes and rebase upstream/main:</p>
 <div class="fragment"><div class="line">git fetch upstream</div>
@@ -208,7 +237,7 @@ Push the branch and create a pull request</h3>
 <p>Now you'll hae to wait until a maintainer merges your PR. Or they may have some further questions or suggestions to improve your PR.</p>
 <p>If you yourself are the maintainer, I'd suggest to wait a few days before merging. Sometimes, you later realise you have forgotten something, and you can then still easily add it to the PR.</p>
 <p>Note: please avoid pushing directly to the original repository in you are a maintainer (or even directly to the main branch): using a personal fork makes following the flow of updates much easier. The PR, and changes that came with, is nicely laid out on GitHub (also when closed), and because merging a PR creates a merge commit, there are clear points where a consistent set of changes was added to the library.</p>
-<h3><a class="anchor" id="autotoc_md59"></a>
+<h3><a class="anchor" id="autotoc_md60"></a>
 Updating the pull request</h3>
 <p>Sometimes you want to update a pending pull request: you've forgotten to commit a file, accidentally commited a file that shouldn't be there[*], or made a typo while changing things.</p>
 <p>For that, go to the correct branch in your local repository, make the changes as needed, then force-push the branch to your fork:</p>

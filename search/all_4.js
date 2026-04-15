@@ -33,7 +33,7 @@ var searchData=
   ['examples_30',['examples',['../md_installation.html#autotoc_md30',1,'Compiling and running the test and examples'],['../md_about.html#autotoc_md4',1,'Examples'],['../md_testing.html#autotoc_md48',1,'Examples']]],
   ['examples_20and_20tests_31',['Building Kariba, the examples and tests',['../md_testing.html#autotoc_md45',1,'']]],
   ['extend_20or_20change_20class_20functionality_20e_20g_20a_20member_20function_32',['Extend or change class functionality (e.g., a member function)',['../md_using.html#autotoc_md53',1,'']]],
-  ['extend_20or_20fix_20a_20bug_20in_20the_20library_33',['Improve, extend or fix a bug in the library',['../md_using.html#autotoc_md55',1,'']]],
+  ['extend_20or_20fix_20a_20bug_20in_20the_20library_33',['Improve, extend or fix a bug in the library',['../md_using.html#autotoc_md56',1,'']]],
   ['extending_20some_20parts_20of_20the_20library_34',['Creating your own model using the library, extending some parts of the library',['../md_using.html#autotoc_md52',1,'']]],
   ['extensive_20example_20unit_20test_35',['Extensive example unit test',['../md_testing.html#autotoc_md47',1,'']]]
 ];

@@ -3,7 +3,7 @@ var classkariba_1_1Powerlaw =
     [ "Powerlaw", "classkariba_1_1Powerlaw.html#a823c6ac2b9034214bc0f0c57f3c52c79", null ],
     [ "check_secondary_charged_syn", "classkariba_1_1Powerlaw.html#a6160675f3222d9cb8ef3e7f066ff2931", null ],
     [ "cooling_steadystate", "classkariba_1_1Powerlaw.html#a84aae618ae7687940700674becb5d56e", null ],
-    [ "get_Efficiency", "classkariba_1_1Powerlaw.html#a6fb5d9bf78343164fd54bdf540f86692", null ],
+    [ "get_Efficiency", "classkariba_1_1Powerlaw.html#a96e7bb33b044b63894e6dd54196e2d28", null ],
     [ "max_p", "classkariba_1_1Powerlaw.html#ae874708e59dab95d5b5170050ccbefc2", null ],
     [ "ProtonTimescales", "classkariba_1_1Powerlaw.html#a7aac22e625701cc5512ccbc55319652a", null ],
     [ "Qggeefunction", "classkariba_1_1Powerlaw.html#a182ae6531781d658f7f3be2d3ea23b0b", null ],
