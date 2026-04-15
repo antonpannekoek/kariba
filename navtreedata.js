@@ -137,8 +137,8 @@ var NAVTREEINDEX =
 "BBody_8cpp.html",
 "classkariba_1_1Compton.html#a9631198617953d50159a5aad8fbefcab",
 "classkariba_1_1Powerlaw.html#a1a64f3e71abeb05215f87cd782e0effe",
-"md_considerations.html#autotoc_md18",
-"structkariba_1_1HetagParams.html#a9683b661b3831dc4d46cc0c08c2e6758"
+"md_considerations.html#autotoc_md17",
+"structkariba_1_1HetagParams.html#a717d68036e37f28fa430d6fba9d25f87"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
