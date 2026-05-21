@@ -65,7 +65,7 @@ var namespacekariba =
     [ "av_pl_p_int", "namespacekariba.html#a079783a45cb5662fbd9b01904ae4faeb", null ],
     [ "av_th_p_int", "namespacekariba.html#a1b648d7ca34f98a9def05b9992b3996a", null ],
     [ "colliding_protons", "namespacekariba.html#a110c9232697da63de3495cbcd1864cfa", null ],
-    [ "comfnc", "namespacekariba.html#aec3938b80ae406c06198fe94ac0cda86", null ],
+    [ "comfnc", "namespacekariba.html#a576ec895d9a1191ef031d47d867d4ef0", null ],
     [ "comint", "namespacekariba.html#a20f05f82ed47acac292e4d44715c8fea", null ],
     [ "cyclosyn_abs", "namespacekariba.html#aca1a648a1bd7030c474555b27017f211", null ],
     [ "cyclosyn_emis", "namespacekariba.html#a64bcbeb853a0af7ddd10d3bfa79fbbc8", null ],

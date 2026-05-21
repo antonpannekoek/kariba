@@ -8,8 +8,8 @@ var searchData=
   ['index_2emd_5',['index.md',['../index_8md.html',1,'']]],
   ['initialize_5fgdens_6',['initialize_gdens',['../classkariba_1_1Particles.html#a1a41047615de751669b563464120dc3e',1,'kariba::Particles']]],
   ['initialize_5fpdens_7',['initialize_pdens',['../classkariba_1_1Particles.html#acc0e46941581995002b790aca2616784',1,'kariba::Particles']]],
-  ['injection_5fbkn_5fint_8',['injection_bkn_int',['../namespacekariba.html#a9f983f49745463afc8583040c17120b5',1,'kariba::injection_bkn_int()'],['../classkariba_1_1Bknpower.html#ae7d29a01f09741f1ba85f7a56300efcd',1,'kariba::Bknpower::injection_bkn_int']]],
-  ['injection_5fkappa_5fint_9',['injection_kappa_int',['../classkariba_1_1Kappa.html#a25dd6c9c497e4fa874fa1777ab670677',1,'kariba::Kappa::injection_kappa_int'],['../namespacekariba.html#a8fe4835d54a436b0666f2e52bdf2cec5',1,'kariba::injection_kappa_int(double x, void *pars)']]],
+  ['injection_5fbkn_5fint_8',['injection_bkn_int',['../classkariba_1_1Bknpower.html#ae7d29a01f09741f1ba85f7a56300efcd',1,'kariba::Bknpower::injection_bkn_int'],['../namespacekariba.html#a9f983f49745463afc8583040c17120b5',1,'kariba::injection_bkn_int(double x, void *pars)']]],
+  ['injection_5fkappa_5fint_9',['injection_kappa_int',['../namespacekariba.html#a8fe4835d54a436b0666f2e52bdf2cec5',1,'kariba::injection_kappa_int()'],['../classkariba_1_1Kappa.html#a25dd6c9c497e4fa874fa1777ab670677',1,'kariba::Kappa::injection_kappa_int']]],
   ['injection_5fmixed_5fint_10',['injection_mixed_int',['../namespacekariba.html#a1171f3432d4ece7fac07e4ab3fb3acc8',1,'kariba']]],
   ['injection_5fpl_5fint_11',['injection_pl_int',['../namespacekariba.html#a0888cd212414fd853631ada42c5bc8ed',1,'kariba']]],
   ['injectionbknparams_12',['InjectionBknParams',['../structkariba_1_1InjectionBknParams.html',1,'kariba']]],
@@ -23,6 +23,5 @@ var searchData=
   ['isefficient_20',['isEfficient',['../classkariba_1_1Powerlaw.html#a2b6ace35d0d17dcc202e4cd7d7e365d7',1,'kariba::Powerlaw']]],
   ['isis_21',['ISIS',['../md_about.html#autotoc_md12',1,'']]],
   ['issues_22',['Other improvements and issues',['../md_considerations.html#autotoc_md22',1,'']]],
-  ['iter_5fph_23',['iter_ph',['../classkariba_1_1Compton.html#aca4bdacbaea8678928ffad5efdd8742a',1,'kariba::Compton']]],
-  ['iter_5furad_24',['iter_urad',['../classkariba_1_1Compton.html#aae25f557d9094717dce361ac79ebc87e',1,'kariba::Compton']]]
+  ['iter_5fph_23',['iter_ph',['../classkariba_1_1Compton.html#aca4bdacbaea8678928ffad5efdd8742a',1,'kariba::Compton']]]
 ];

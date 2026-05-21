@@ -107,6 +107,7 @@ var NAVTREE =
         ] ]
       ] ]
     ] ],
+    [ "Deprecated List", "deprecated.html", null ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
@@ -135,10 +136,10 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "BBody_8cpp.html",
-"classkariba_1_1Compton.html#a9631198617953d50159a5aad8fbefcab",
-"classkariba_1_1Powerlaw.html#a1a64f3e71abeb05215f87cd782e0effe",
-"md_considerations.html#autotoc_md17",
-"structkariba_1_1HetagParams.html#a717d68036e37f28fa430d6fba9d25f87"
+"classkariba_1_1Compton.html#a73eb6a84668e2261c7828762c5c3f4e4",
+"classkariba_1_1Particles.html#aa2b41bbb6e9086d0588de270ee129479",
+"functions_r.html",
+"structkariba_1_1HetaParams.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

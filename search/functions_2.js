@@ -2,10 +2,10 @@ var searchData=
 [
   ['check_5fsecondary_5fcharged_5fsyn_0',['check_secondary_charged_syn',['../classkariba_1_1Powerlaw.html#a6160675f3222d9cb8ef3e7f066ff2931',1,'kariba::Powerlaw']]],
   ['colliding_5fprotons_1',['colliding_protons',['../namespacekariba.html#a110c9232697da63de3495cbcd1864cfa',1,'kariba']]],
-  ['comfnc_2',['comfnc',['../namespacekariba.html#aec3938b80ae406c06198fe94ac0cda86',1,'kariba']]],
+  ['comfnc_2',['comfnc',['../namespacekariba.html#a576ec895d9a1191ef031d47d867d4ef0',1,'kariba']]],
   ['comint_3',['comint',['../namespacekariba.html#a20f05f82ed47acac292e4d44715c8fea',1,'kariba']]],
   ['comintegral_4',['comintegral',['../classkariba_1_1Compton.html#a509091cb256bcddf19d1d1a8c50c3d1a',1,'kariba::Compton']]],
-  ['compton_5',['Compton',['../classkariba_1_1Compton.html#a0194e7f57b49701a522c90464f793f5c',1,'kariba::Compton']]],
+  ['compton_5',['Compton',['../classkariba_1_1Compton.html#a98c95958cd6bf637fd86226937aaef10',1,'kariba::Compton']]],
   ['compton_5fspectrum_6',['compton_spectrum',['../classkariba_1_1Compton.html#a2b97a4e09caa86be47df4a8f9bf75974',1,'kariba::Compton']]],
   ['cooling_5fsteadystate_7',['cooling_steadystate',['../classkariba_1_1Bknpower.html#ada75be4bb5b49182e75afa0bd0120e15',1,'kariba::Bknpower::cooling_steadystate()'],['../classkariba_1_1Kappa.html#a9e477f72962e95fc2d949490411a1b2a',1,'kariba::Kappa::cooling_steadystate()'],['../classkariba_1_1Mixed.html#ab32be170493fcee395a74d4f216fc9d9',1,'kariba::Mixed::cooling_steadystate()'],['../classkariba_1_1Powerlaw.html#a84aae618ae7687940700674becb5d56e',1,'kariba::Powerlaw::cooling_steadystate()']]],
   ['count_5fparticles_8',['count_particles',['../classkariba_1_1Particles.html#af260cfa1398d68daadc0ba3832dc6a75',1,'kariba::Particles']]],
@@ -16,6 +16,6 @@ var searchData=
   ['cyclosyn_13',['Cyclosyn',['../classkariba_1_1Cyclosyn.html#a5e7aeddb1f775e5f7bcd3526fdee18be',1,'kariba::Cyclosyn']]],
   ['cyclosyn_5fabs_14',['cyclosyn_abs',['../namespacekariba.html#aca1a648a1bd7030c474555b27017f211',1,'kariba']]],
   ['cyclosyn_5femis_15',['cyclosyn_emis',['../namespacekariba.html#a64bcbeb853a0af7ddd10d3bfa79fbbc8',1,'kariba']]],
-  ['cyclosyn_5fseed_16',['cyclosyn_seed',['../classkariba_1_1Compton.html#af5c1af7854ccd1d761ec7c6a21877f9e',1,'kariba::Compton']]],
+  ['cyclosyn_5fseed_16',['cyclosyn_seed',['../classkariba_1_1Compton.html#a5a3a8fbd8e7db576e8d3d51f27596e59',1,'kariba::Compton']]],
   ['cycsyn_5fspectrum_17',['cycsyn_spectrum',['../classkariba_1_1Cyclosyn.html#aab8ce5bcfc43a679ffc78ce15e654f24',1,'kariba::Cyclosyn']]]
 ];

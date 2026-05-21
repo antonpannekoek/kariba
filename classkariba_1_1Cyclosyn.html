@@ -140,6 +140,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a6e403b6aa0d31e166af6a67c19f1fd14"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0663e357c08055213183b9ceaf85af19" id="r_a0663e357c08055213183b9ceaf85af19"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkariba_1_1Cyclosyn.html#a0663e357c08055213183b9ceaf85af19">test</a> ()</td></tr>
 <tr class="separator:a0663e357c08055213183b9ceaf85af19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ce61a117a0537ec166de2594cc76222" id="r_a7ce61a117a0537ec166de2594cc76222"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkariba_1_1Cyclosyn.html#a7ce61a117a0537ec166de2594cc76222">get_cyclosyn_absorption_rate</a> () const</td></tr>
+<tr class="separator:a7ce61a117a0537ec166de2594cc76222"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classkariba_1_1Radiation"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classkariba_1_1Radiation')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classkariba_1_1Radiation.html">kariba::Radiation</a></td></tr>
 <tr class="memitem:a72c26090e16d3a8a34fe1aedb22bf126 inherit pub_methods_classkariba_1_1Radiation" id="r_a72c26090e16d3a8a34fe1aedb22bf126"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkariba_1_1Radiation.html#a72c26090e16d3a8a34fe1aedb22bf126">Radiation</a> (size_t size)</td></tr>
 <tr class="separator:a72c26090e16d3a8a34fe1aedb22bf126 inherit pub_methods_classkariba_1_1Radiation"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -183,6 +185,8 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a4e7781fdf58196331b2336a2207087cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a146a9bc00368c95f60365ca4955fe2c1" id="r_a146a9bc00368c95f60365ca4955fe2c1"><td class="memItemLeft" align="right" valign="top">gsl_interp_accel *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkariba_1_1Cyclosyn.html#a146a9bc00368c95f60365ca4955fe2c1">syn_acc</a></td></tr>
 <tr class="separator:a146a9bc00368c95f60365ca4955fe2c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90cae942707f513c73713a7443172f5c" id="r_a90cae942707f513c73713a7443172f5c"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkariba_1_1Cyclosyn.html#a90cae942707f513c73713a7443172f5c">cyclosyn_absorption_rate</a></td></tr>
+<tr class="separator:a90cae942707f513c73713a7443172f5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classkariba_1_1Radiation"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classkariba_1_1Radiation')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classkariba_1_1Radiation.html">kariba::Radiation</a></td></tr>
 <tr class="memitem:ac4419002e889da082592db94c0a6fa71 inherit pro_attribs_classkariba_1_1Radiation" id="r_ac4419002e889da082592db94c0a6fa71"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkariba_1_1Radiation.html#ac4419002e889da082592db94c0a6fa71">en_phot</a></td></tr>
 <tr class="memdesc:ac4419002e889da082592db94c0a6fa71 inherit pro_attribs_classkariba_1_1Radiation"><td class="mdescLeft">&#160;</td><td class="mdescRight">array of photon energies  <br /></td></tr>
@@ -224,10 +228,11 @@ Protected Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="friends" name="friends"></a>
 Friends</h2></td></tr>
-<tr class="memitem:ad8299c2c9947305170c5a4a99e49d3f7" id="r_ad8299c2c9947305170c5a4a99e49d3f7"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkariba_1_1Cyclosyn.html#ad8299c2c9947305170c5a4a99e49d3f7">emis</a> (double gamma, void *p)</td></tr>
-<tr class="separator:ad8299c2c9947305170c5a4a99e49d3f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a906535c0e89512c405aff2b67493a14b" id="r_a906535c0e89512c405aff2b67493a14b"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkariba_1_1Cyclosyn.html#a906535c0e89512c405aff2b67493a14b">abs</a> (double gamma, void *p)</td></tr>
-<tr class="separator:a906535c0e89512c405aff2b67493a14b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace3db4b55cdbdfa11e631f3568057f46" id="r_ace3db4b55cdbdfa11e631f3568057f46"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkariba_1_1Cyclosyn.html#ace3db4b55cdbdfa11e631f3568057f46">cyclosyn_emis</a> (double gamma, void *pars)</td></tr>
+<tr class="memdesc:ace3db4b55cdbdfa11e631f3568057f46"><td class="mdescLeft">&#160;</td><td class="mdescRight">Single particle emissivity/absorption coefficient calculations.  <br /></td></tr>
+<tr class="separator:ace3db4b55cdbdfa11e631f3568057f46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a128f2629b40cc06d07feac8cd81fbd71" id="r_a128f2629b40cc06d07feac8cd81fbd71"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkariba_1_1Cyclosyn.html#a128f2629b40cc06d07feac8cd81fbd71">cyclosyn_abs</a> (double gamma, void *pars)</td></tr>
+<tr class="separator:a128f2629b40cc06d07feac8cd81fbd71"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class synchrotron photons, inherited from <a class="el" href="Radiation_8hpp.html">Radiation.hpp</a>. </p>
@@ -440,6 +445,31 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a id="a7ce61a117a0537ec166de2594cc76222" name="a7ce61a117a0537ec166de2594cc76222"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ce61a117a0537ec166de2594cc76222">&#9670;&#160;</a></span>get_cyclosyn_absorption_rate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::vector&lt; double &gt; &amp; kariba::Cyclosyn::get_cyclosyn_absorption_rate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a17b35ebb17c8cedc2c05712e978e8289" name="a17b35ebb17c8cedc2c05712e978e8289"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a17b35ebb17c8cedc2c05712e978e8289">&#9670;&#160;</a></span>nu_syn() <span class="overload">[1/2]</span></h2>
 
@@ -612,8 +642,8 @@ Friends</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Friends And Related Symbol Documentation</h2>
-<a id="a906535c0e89512c405aff2b67493a14b" name="a906535c0e89512c405aff2b67493a14b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a906535c0e89512c405aff2b67493a14b">&#9670;&#160;</a></span>abs</h2>
+<a id="a128f2629b40cc06d07feac8cd81fbd71" name="a128f2629b40cc06d07feac8cd81fbd71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a128f2629b40cc06d07feac8cd81fbd71">&#9670;&#160;</a></span>cyclosyn_abs</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -622,7 +652,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">double abs </td>
+          <td class="memname">double cyclosyn_abs </td>
           <td>(</td>
           <td class="paramtype">double&#160;</td>
           <td class="paramname"><em>gamma</em>, </td>
@@ -631,7 +661,7 @@ Friends</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">void *&#160;</td>
-          <td class="paramname"><em>p</em>&#160;</td>
+          <td class="paramname"><em>pars</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -648,8 +678,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="ad8299c2c9947305170c5a4a99e49d3f7" name="ad8299c2c9947305170c5a4a99e49d3f7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad8299c2c9947305170c5a4a99e49d3f7">&#9670;&#160;</a></span>emis</h2>
+<a id="ace3db4b55cdbdfa11e631f3568057f46" name="ace3db4b55cdbdfa11e631f3568057f46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace3db4b55cdbdfa11e631f3568057f46">&#9670;&#160;</a></span>cyclosyn_emis</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -658,7 +688,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">double emis </td>
+          <td class="memname">double cyclosyn_emis </td>
           <td>(</td>
           <td class="paramtype">double&#160;</td>
           <td class="paramname"><em>gamma</em>, </td>
@@ -667,7 +697,7 @@ Friends</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">void *&#160;</td>
-          <td class="paramname"><em>p</em>&#160;</td>
+          <td class="paramname"><em>pars</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -681,6 +711,8 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Single particle emissivity/absorption coefficient calculations. </p>
 
 </div>
 </div>
@@ -696,6 +728,28 @@ Friends</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">double kariba::Cyclosyn::bfield</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a90cae942707f513c73713a7443172f5c" name="a90cae942707f513c73713a7443172f5c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90cae942707f513c73713a7443172f5c">&#9670;&#160;</a></span>cyclosyn_absorption_rate</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;double&gt; kariba::Cyclosyn::cyclosyn_absorption_rate</td>
         </tr>
       </table>
   </td>

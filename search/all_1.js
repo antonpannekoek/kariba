@@ -2,8 +2,8 @@ var searchData=
 [
   ['b_0',['b',['../structkariba_1_1CyclosynEmisParams.html#a937f05cde90b91397a7fdd5beef16791',1,'kariba::CyclosynEmisParams::b'],['../structkariba_1_1CyclosynAbsParams.html#afd882f7e387df203207c4d941127a7da',1,'kariba::CyclosynAbsParams::b']]],
   ['barn_1',['barn',['../namespacekariba_1_1constants.html#a425eedff4a3497126d486de0b179368e',1,'kariba::constants']]],
-  ['bb_5fseed_5fk_2',['bb_seed_k',['../classkariba_1_1Compton.html#aea8167eba5cf553599e7ed5e3a739726',1,'kariba::Compton']]],
-  ['bb_5fseed_5fkev_3',['bb_seed_kev',['../classkariba_1_1Compton.html#adca1391b29ee12c6f5810865e4fac3eb',1,'kariba::Compton']]],
+  ['bb_5fseed_5fk_2',['bb_seed_k',['../classkariba_1_1Compton.html#af108b1754e7aca576c86f30c2f1678c9',1,'kariba::Compton::bb_seed_k(const std::vector&lt; double &gt; &amp;seed_arr, double Urad, double Tbb)'],['../classkariba_1_1Compton.html#aa23624934fbbc13f77fdb39d9d0e7718',1,'kariba::Compton::bb_seed_k(double Urad, double Tbb)']]],
+  ['bb_5fseed_5fkev_3',['bb_seed_kev',['../classkariba_1_1Compton.html#ab5442aac71853f3d944ad05d90fb2fc6',1,'kariba::Compton::bb_seed_kev(const std::vector&lt; double &gt; &amp;seed_arr, double Urad, double Tbb)'],['../classkariba_1_1Compton.html#a2a5107d97ef230fefd2c396edcd37b2f',1,'kariba::Compton::bb_seed_kev(double Urad, double Tbb)']]],
   ['bb_5fspectrum_4',['bb_spectrum',['../classkariba_1_1BBody.html#a1a864ac87902b5b00ecb761e0ad714ab',1,'kariba::BBody']]],
   ['bbody_5',['bbody',['../classkariba_1_1BBody.html',1,'kariba::BBody'],['../classkariba_1_1BBody.html#af8469faf99e7d5a42d809d291ab578da',1,'kariba::BBody::BBody()']]],
   ['bbody_2ecpp_6',['BBody.cpp',['../BBody_8cpp.html',1,'']]],
