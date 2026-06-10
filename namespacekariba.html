@@ -258,11 +258,13 @@ Functions</h2></td></tr>
 <tr class="separator:a20f05f82ed47acac292e4d44715c8fea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4a2daecbcf5a987f255360e4cf80edf" id="r_ac4a2daecbcf5a987f255360e4cf80edf"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacekariba.html#ac4a2daecbcf5a987f255360e4cf80edf">disk_integral</a> (double alfa, void *pars)</td></tr>
 <tr class="separator:ac4a2daecbcf5a987f255360e4cf80edf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a64bcbeb853a0af7ddd10d3bfa79fbbc8" id="r_a64bcbeb853a0af7ddd10d3bfa79fbbc8"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacekariba.html#a64bcbeb853a0af7ddd10d3bfa79fbbc8">cyclosyn_emis</a> (double gamma, void *pars)</td></tr>
-<tr class="memdesc:a64bcbeb853a0af7ddd10d3bfa79fbbc8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Single particle emissivity/absorption coefficient calculations.  <br /></td></tr>
-<tr class="separator:a64bcbeb853a0af7ddd10d3bfa79fbbc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca1a648a1bd7030c474555b27017f211" id="r_aca1a648a1bd7030c474555b27017f211"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacekariba.html#aca1a648a1bd7030c474555b27017f211">cyclosyn_abs</a> (double gamma, void *pars)</td></tr>
-<tr class="separator:aca1a648a1bd7030c474555b27017f211"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1a984b260d5c3c29bcf635bba582b21" id="r_ad1a984b260d5c3c29bcf635bba582b21"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacekariba.html#ad1a984b260d5c3c29bcf635bba582b21">cyclosyn_kernel</a> (double gamma, double nu, double b, gsl_spline *syn, gsl_interp_accel *acc_syn)</td></tr>
+<tr class="separator:ad1a984b260d5c3c29bcf635bba582b21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad92ea066ea2703a7ed5c14567fa25d95" id="r_ad92ea066ea2703a7ed5c14567fa25d95"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacekariba.html#ad92ea066ea2703a7ed5c14567fa25d95">cyclosyn_emis</a> (double log_rho, void *pars)</td></tr>
+<tr class="memdesc:ad92ea066ea2703a7ed5c14567fa25d95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Single particle emissivity/absorption coefficient calculations.  <br /></td></tr>
+<tr class="separator:ad92ea066ea2703a7ed5c14567fa25d95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78a05e51492d205a941f00adf37c3b5d" id="r_a78a05e51492d205a941f00adf37c3b5d"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacekariba.html#a78a05e51492d205a941f00adf37c3b5d">cyclosyn_abs</a> (double log_rho, void *pars)</td></tr>
+<tr class="separator:a78a05e51492d205a941f00adf37c3b5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0cccb78959ca6956c066fca9d680e763" id="r_a0cccb78959ca6956c066fca9d680e763"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacekariba.html#a0cccb78959ca6956c066fca9d680e763">norm_kappa_int</a> (double x, void *pars)</td></tr>
 <tr class="memdesc:a0cccb78959ca6956c066fca9d680e763"><td class="mdescLeft">&#160;</td><td class="mdescRight">Methods to calculate the normalization of the function.  <br /></td></tr>
 <tr class="separator:a0cccb78959ca6956c066fca9d680e763"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -460,8 +462,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="aca1a648a1bd7030c474555b27017f211" name="aca1a648a1bd7030c474555b27017f211"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aca1a648a1bd7030c474555b27017f211">&#9670;&#160;</a></span>cyclosyn_abs()</h2>
+<a id="a78a05e51492d205a941f00adf37c3b5d" name="a78a05e51492d205a941f00adf37c3b5d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78a05e51492d205a941f00adf37c3b5d">&#9670;&#160;</a></span>cyclosyn_abs()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -470,7 +472,7 @@ Variables</h2></td></tr>
           <td class="memname">double kariba::cyclosyn_abs </td>
           <td>(</td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>gamma</em>, </td>
+          <td class="paramname"><em>log_rho</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -488,8 +490,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a64bcbeb853a0af7ddd10d3bfa79fbbc8" name="a64bcbeb853a0af7ddd10d3bfa79fbbc8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a64bcbeb853a0af7ddd10d3bfa79fbbc8">&#9670;&#160;</a></span>cyclosyn_emis()</h2>
+<a id="ad92ea066ea2703a7ed5c14567fa25d95" name="ad92ea066ea2703a7ed5c14567fa25d95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad92ea066ea2703a7ed5c14567fa25d95">&#9670;&#160;</a></span>cyclosyn_emis()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -498,7 +500,7 @@ Variables</h2></td></tr>
           <td class="memname">double kariba::cyclosyn_emis </td>
           <td>(</td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>gamma</em>, </td>
+          <td class="paramname"><em>log_rho</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -515,6 +517,52 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Single particle emissivity/absorption coefficient calculations. </p>
+
+</div>
+</div>
+<a id="ad1a984b260d5c3c29bcf635bba582b21" name="ad1a984b260d5c3c29bcf635bba582b21"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1a984b260d5c3c29bcf635bba582b21">&#9670;&#160;</a></span>cyclosyn_kernel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double kariba::cyclosyn_kernel </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>gamma</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>nu</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>b</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">gsl_spline *&#160;</td>
+          <td class="paramname"><em>syn</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">gsl_interp_accel *&#160;</td>
+          <td class="paramname"><em>acc_syn</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>

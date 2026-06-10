@@ -14,8 +14,9 @@ var searchData=
   ['count_5fth_5fparticles_11',['count_th_particles',['../classkariba_1_1Mixed.html#aa092a03260bf71e3cab67c5e094dda17',1,'kariba::Mixed']]],
   ['cover_5fdisk_12',['cover_disk',['../classkariba_1_1ShSDisk.html#a0757827a7a0108de6744e8788bd17af9',1,'kariba::ShSDisk']]],
   ['cyclosyn_13',['Cyclosyn',['../classkariba_1_1Cyclosyn.html#a5e7aeddb1f775e5f7bcd3526fdee18be',1,'kariba::Cyclosyn']]],
-  ['cyclosyn_5fabs_14',['cyclosyn_abs',['../namespacekariba.html#aca1a648a1bd7030c474555b27017f211',1,'kariba']]],
-  ['cyclosyn_5femis_15',['cyclosyn_emis',['../namespacekariba.html#a64bcbeb853a0af7ddd10d3bfa79fbbc8',1,'kariba']]],
-  ['cyclosyn_5fseed_16',['cyclosyn_seed',['../classkariba_1_1Compton.html#a5a3a8fbd8e7db576e8d3d51f27596e59',1,'kariba::Compton']]],
-  ['cycsyn_5fspectrum_17',['cycsyn_spectrum',['../classkariba_1_1Cyclosyn.html#aab8ce5bcfc43a679ffc78ce15e654f24',1,'kariba::Cyclosyn']]]
+  ['cyclosyn_5fabs_14',['cyclosyn_abs',['../namespacekariba.html#a78a05e51492d205a941f00adf37c3b5d',1,'kariba']]],
+  ['cyclosyn_5femis_15',['cyclosyn_emis',['../namespacekariba.html#ad92ea066ea2703a7ed5c14567fa25d95',1,'kariba']]],
+  ['cyclosyn_5fkernel_16',['cyclosyn_kernel',['../namespacekariba.html#ad1a984b260d5c3c29bcf635bba582b21',1,'kariba']]],
+  ['cyclosyn_5fseed_17',['cyclosyn_seed',['../classkariba_1_1Compton.html#a5a3a8fbd8e7db576e8d3d51f27596e59',1,'kariba::Compton']]],
+  ['cycsyn_5fspectrum_18',['cycsyn_spectrum',['../classkariba_1_1Cyclosyn.html#aab8ce5bcfc43a679ffc78ce15e654f24',1,'kariba::Cyclosyn']]]
 ];

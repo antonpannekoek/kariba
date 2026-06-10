@@ -123,8 +123,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:acc0e46941581995002b790aca2616784" id="r_acc0e46941581995002b790aca2616784"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkariba_1_1Particles.html#acc0e46941581995002b790aca2616784">initialize_pdens</a> ()</td></tr>
 <tr class="memdesc:acc0e46941581995002b790aca2616784"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same as above but the other way around.  <br /></td></tr>
 <tr class="separator:acc0e46941581995002b790aca2616784"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae7899049a6e84290d6f99ecf4624424a" id="r_ae7899049a6e84290d6f99ecf4624424a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkariba_1_1Particles.html#ae7899049a6e84290d6f99ecf4624424a">gdens_differentiate</a> ()</td></tr>
-<tr class="separator:ae7899049a6e84290d6f99ecf4624424a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83f66b36737f9cbad56bb1bb4819a93e" id="r_a83f66b36737f9cbad56bb1bb4819a93e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkariba_1_1Particles.html#a83f66b36737f9cbad56bb1bb4819a93e">differentiate</a> ()</td></tr>
+<tr class="separator:a83f66b36737f9cbad56bb1bb4819a93e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca928ea13840734cf675b6a9f085ccaa" id="r_aca928ea13840734cf675b6a9f085ccaa"><td class="memItemLeft" align="right" valign="top">virtual const std::vector&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkariba_1_1Particles.html#aca928ea13840734cf675b6a9f085ccaa">get_p</a> () const</td></tr>
 <tr class="separator:aca928ea13840734cf675b6a9f085ccaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a57b4962ad9f5418104324b23eff1a29d" id="r_a57b4962ad9f5418104324b23eff1a29d"><td class="memItemLeft" align="right" valign="top">virtual const std::vector&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkariba_1_1Particles.html#a57b4962ad9f5418104324b23eff1a29d">get_pdens</a> () const</td></tr>
@@ -133,8 +133,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a1243034abea5edb686aa696a7d0ba216"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adec92c16e8f94bb6c3a0ead1949a0456" id="r_adec92c16e8f94bb6c3a0ead1949a0456"><td class="memItemLeft" align="right" valign="top">virtual const std::vector&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkariba_1_1Particles.html#adec92c16e8f94bb6c3a0ead1949a0456">get_gdens</a> () const</td></tr>
 <tr class="separator:adec92c16e8f94bb6c3a0ead1949a0456"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a495055c401873ce9775978abcef77c99" id="r_a495055c401873ce9775978abcef77c99"><td class="memItemLeft" align="right" valign="top">virtual const std::vector&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkariba_1_1Particles.html#a495055c401873ce9775978abcef77c99">get_gdens_diff</a> () const</td></tr>
-<tr class="separator:a495055c401873ce9775978abcef77c99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af37674b58c6bd9d02d47ccb0f19c7dfa" id="r_af37674b58c6bd9d02d47ccb0f19c7dfa"><td class="memItemLeft" align="right" valign="top">virtual const std::vector&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkariba_1_1Particles.html#af37674b58c6bd9d02d47ccb0f19c7dfa">get_pdensp2_diff_logp</a> () const</td></tr>
+<tr class="separator:af37674b58c6bd9d02d47ccb0f19c7dfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af260cfa1398d68daadc0ba3832dc6a75" id="r_af260cfa1398d68daadc0ba3832dc6a75"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkariba_1_1Particles.html#af260cfa1398d68daadc0ba3832dc6a75">count_particles</a> ()</td></tr>
 <tr class="memdesc:af260cfa1398d68daadc0ba3832dc6a75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simple numerical integrals /w trapeze method.  <br /></td></tr>
 <tr class="separator:af260cfa1398d68daadc0ba3832dc6a75"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -172,8 +172,9 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a33876411fdc6da31f43ef8910f3044d8" id="r_a33876411fdc6da31f43ef8910f3044d8"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkariba_1_1Particles.html#a33876411fdc6da31f43ef8910f3044d8">gdens</a></td></tr>
 <tr class="memdesc:a33876411fdc6da31f43ef8910f3044d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">array of number density per unit volume, per unit gamma  <br /></td></tr>
 <tr class="separator:a33876411fdc6da31f43ef8910f3044d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a793d303f93b01a4aadb29c62d3b9f16b" id="r_a793d303f93b01a4aadb29c62d3b9f16b"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkariba_1_1Particles.html#a793d303f93b01a4aadb29c62d3b9f16b">gdens_diff</a></td></tr>
-<tr class="separator:a793d303f93b01a4aadb29c62d3b9f16b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46ae44d518ead5b8d376d6cdabaa9a70" id="r_a46ae44d518ead5b8d376d6cdabaa9a70"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkariba_1_1Particles.html#a46ae44d518ead5b8d376d6cdabaa9a70">pdensp2_diff_logp</a></td></tr>
+<tr class="memdesc:a46ae44d518ead5b8d376d6cdabaa9a70"><td class="mdescLeft">&#160;</td><td class="mdescRight">density for radiation calculation p^-2*dn/dp  <br /></td></tr>
+<tr class="separator:a46ae44d518ead5b8d376d6cdabaa9a70"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Template class for particle distributions This class contains members and methods that are used for thermal, non-thermal and mixed distributions </p>
@@ -349,8 +350,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ae7899049a6e84290d6f99ecf4624424a" name="ae7899049a6e84290d6f99ecf4624424a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae7899049a6e84290d6f99ecf4624424a">&#9670;&#160;</a></span>gdens_differentiate()</h2>
+<a id="a83f66b36737f9cbad56bb1bb4819a93e" name="a83f66b36737f9cbad56bb1bb4819a93e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83f66b36737f9cbad56bb1bb4819a93e">&#9670;&#160;</a></span>differentiate()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -359,7 +360,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void kariba::Particles::gdens_differentiate </td>
+          <td class="memname">void kariba::Particles::differentiate </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -424,31 +425,6 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a495055c401873ce9775978abcef77c99" name="a495055c401873ce9775978abcef77c99"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a495055c401873ce9775978abcef77c99">&#9670;&#160;</a></span>get_gdens_diff()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual const std::vector&lt; double &gt; &amp; kariba::Particles::get_gdens_diff </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="aca928ea13840734cf675b6a9f085ccaa" name="aca928ea13840734cf675b6a9f085ccaa"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aca928ea13840734cf675b6a9f085ccaa">&#9670;&#160;</a></span>get_p()</h2>
 
@@ -485,6 +461,31 @@ Protected Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">virtual const std::vector&lt; double &gt; &amp; kariba::Particles::get_pdens </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af37674b58c6bd9d02d47ccb0f19c7dfa" name="af37674b58c6bd9d02d47ccb0f19c7dfa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af37674b58c6bd9d02d47ccb0f19c7dfa">&#9670;&#160;</a></span>get_pdensp2_diff_logp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual const std::vector&lt; double &gt; &amp; kariba::Particles::get_pdensp2_diff_logp </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -654,29 +655,6 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a793d303f93b01a4aadb29c62d3b9f16b" name="a793d303f93b01a4aadb29c62d3b9f16b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a793d303f93b01a4aadb29c62d3b9f16b">&#9670;&#160;</a></span>gdens_diff</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;double&gt; kariba::Particles::gdens_diff</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>array with differential of number density for radiation calculation </p>
-
-</div>
-</div>
 <a id="a9191188fe595b105770644a3f924cf87" name="a9191188fe595b105770644a3f924cf87"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9191188fe595b105770644a3f924cf87">&#9670;&#160;</a></span>mass_gr</h2>
 
@@ -770,6 +748,31 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>array of particle momenta </p>
+
+</div>
+</div>
+<a id="a46ae44d518ead5b8d376d6cdabaa9a70" name="a46ae44d518ead5b8d376d6cdabaa9a70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46ae44d518ead5b8d376d6cdabaa9a70">&#9670;&#160;</a></span>pdensp2_diff_logp</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;double&gt; kariba::Particles::pdensp2_diff_logp</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>density for radiation calculation p^-2*dn/dp </p>
+<p>array with differential of number </p>
 
 </div>
 </div>

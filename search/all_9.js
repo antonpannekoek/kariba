@@ -2,7 +2,7 @@ var searchData=
 [
   ['k_0',['k',['../structkariba_1_1KParams.html#a404643ee4feea211297d009dd66ac6bc',1,'kariba::KParams::k'],['../structkariba_1_1InjectionKappaParams.html#a3cd47f03b5db234083824b14812122db',1,'kariba::InjectionKappaParams::k']]],
   ['k2_1',['k2',['../classkariba_1_1Mixed.html#a9e37850a4274de60fed71440fdaeb794',1,'kariba::Mixed::K2()'],['../classkariba_1_1Thermal.html#aef0a1a1124db29146c6ca7e80a6ac811',1,'kariba::Thermal::K2()']]],
-  ['kappa_2',['kappa',['../classkariba_1_1Kappa.html',1,'kariba::Kappa'],['../classkariba_1_1Kappa.html#a9ab3ca91a85cc1b8e441659527c2be23',1,'kariba::Kappa::Kappa(size_t size)'],['../classkariba_1_1Kappa.html#ad5ca4b213091f4c3c4af1e0c29ff6b7b',1,'kariba::Kappa::kappa']]],
+  ['kappa_2',['kappa',['../classkariba_1_1Kappa.html',1,'kariba::Kappa'],['../classkariba_1_1Kappa.html#ad5ca4b213091f4c3c4af1e0c29ff6b7b',1,'kariba::Kappa::kappa'],['../classkariba_1_1Kappa.html#a9ab3ca91a85cc1b8e441659527c2be23',1,'kariba::Kappa::Kappa(size_t size)']]],
   ['kappa_2ecpp_3',['Kappa.cpp',['../Kappa_8cpp.html',1,'']]],
   ['kappa_2ehpp_4',['Kappa.hpp',['../Kappa_8hpp.html',1,'']]],
   ['kariba_5',['kariba',['../md_about.html#autotoc_md0',1,'About Kariba'],['../namespacekariba.html',1,'kariba'],['../md_testing.html#autotoc_md44',1,'Testing Kariba']]],

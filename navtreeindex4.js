@@ -1,5 +1,9 @@
 var NAVTREEINDEX4 =
 {
+"structkariba_1_1DiskObsParams.html#a295ca96e6f5e0d30d47094df4ec69c80":[8,0,0,11,2],
+"structkariba_1_1DiskObsParams.html#a6a4f549f3015808725bfbb5129afd686":[8,0,0,11,1],
+"structkariba_1_1DiskObsParams.html#a6a4f549f3015808725bfbb5129afd686":[9,0,0,10,1],
+"structkariba_1_1HetaParams.html":[9,0,0,13],
 "structkariba_1_1HetaParams.html":[8,0,0,14],
 "structkariba_1_1HetaParams.html#a23c414212feac0badb8928d0e312b740":[9,0,0,13,1],
 "structkariba_1_1HetaParams.html#a23c414212feac0badb8928d0e312b740":[8,0,0,14,1],
