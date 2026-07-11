@@ -1,6 +1,7 @@
 var structkariba_1_1InjectionBknParams =
 [
     [ "brk", "structkariba_1_1InjectionBknParams.html#acdf8075cb7b238602fcc9dc3baa8d638", null ],
+    [ "cutoff_type", "structkariba_1_1InjectionBknParams.html#a88188daaed5ec38af0865dc8f872a580", null ],
     [ "m", "structkariba_1_1InjectionBknParams.html#ae6149213b6213f6acc85089e4cd71c27", null ],
     [ "max", "structkariba_1_1InjectionBknParams.html#afd6a655b86b0f915fc37fe9ce5b0fb90", null ],
     [ "n", "structkariba_1_1InjectionBknParams.html#a1c0cb8284a8ff7ced3ec8863e490469b", null ],

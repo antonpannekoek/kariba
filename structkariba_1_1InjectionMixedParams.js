@@ -1,6 +1,7 @@
 var structkariba_1_1InjectionMixedParams =
 [
     [ "cutoff", "structkariba_1_1InjectionMixedParams.html#a9417e0283412164ee339030f8d12a11f", null ],
+    [ "cutoff_type", "structkariba_1_1InjectionMixedParams.html#acdd5263ee5c0b2f4ed621eb3a9451540", null ],
     [ "m", "structkariba_1_1InjectionMixedParams.html#a000215e89cc25f029b884ff87fbd52b9", null ],
     [ "max", "structkariba_1_1InjectionMixedParams.html#a25bacd7c9e9b9b1421ab680fe7f34d9c", null ],
     [ "min", "structkariba_1_1InjectionMixedParams.html#a3fb921ff45fb24c65ade99ae85346034", null ],

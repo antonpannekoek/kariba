@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['urad_0',['Urad',['../classkariba_1_1BBody.html#ae03634b2995f54e88530b41fc8e11c53',1,'kariba::BBody']]],
-  ['urad_5ftest_1',['urad_test',['../classkariba_1_1Compton.html#ae2d7025bacb82a69763e11b9673699e0',1,'kariba::Compton']]]
+  ['_7ecompton_0',['~Compton',['../classkariba_1_1Compton.html#a021c0efe921356cebaf6704ed0514836',1,'kariba::Compton']]],
+  ['_7ecyclosyn_1',['~Cyclosyn',['../classkariba_1_1Cyclosyn.html#a139c7bcbf1f4562c302950953d3ad3c5',1,'kariba::Cyclosyn']]]
 ];

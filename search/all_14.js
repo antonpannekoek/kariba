@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['variable_20names_0',['Class, function and variable names',['../md_style-and-tips.html#autotoc_md40',1,'']]],
-  ['variable_20types_1',['variable types',['../md_considerations.html#autotoc_md19',1,'Replacement of other variable types'],['../md_considerations.html#autotoc_md18',1,'Use of &lt;tt&gt;size_t&lt;/tt&gt; and variable types']]],
-  ['vol_2',['vol',['../classkariba_1_1Radiation.html#a21dd517a59c1084eb1ee4ee755acb215',1,'kariba::Radiation']]]
+  ['w1_0',['w1',['../classkariba_1_1Compton.html#aec02a509033d7868532ef9f38954e193',1,'kariba::Compton']]],
+  ['w2_1',['w2',['../classkariba_1_1Compton.html#a19b5b45a9a0a8d47ae0e1f5896ea2b2f',1,'kariba::Compton::w2'],['../structkariba_1_1ComintParams.html#ad02c818b10bc032b757e8fc78943a1b2',1,'kariba::ComintParams::w2']]],
+  ['with_20or_20for_20the_20kariba_20library_2',['Using and developing with or for the Kariba library',['../md_using.html#autotoc_md50',1,'']]]
 ];

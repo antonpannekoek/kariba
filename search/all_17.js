@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['z_0',['z',['../structkariba_1_1DiskIcParams.html#a6323da2063e4c12607b04c3db0fe5c4c',1,'kariba::DiskIcParams::z'],['../classkariba_1_1Radiation.html#a325bbffa838cbe2bb6327e533ac8397d',1,'kariba::Radiation::z']]]
+  ['_7ecompton_0',['~Compton',['../classkariba_1_1Compton.html#a021c0efe921356cebaf6704ed0514836',1,'kariba::Compton']]],
+  ['_7ecyclosyn_1',['~Cyclosyn',['../classkariba_1_1Cyclosyn.html#a139c7bcbf1f4562c302950953d3ad3c5',1,'kariba::Cyclosyn']]]
 ];

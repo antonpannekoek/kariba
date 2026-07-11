@@ -23,6 +23,7 @@ var classkariba_1_1Mixed =
     [ "av_th_p_int", "classkariba_1_1Mixed.html#ad07403f8a86482d0e678722a8e67f1b9", null ],
     [ "pl_num_dens_int", "classkariba_1_1Mixed.html#a644192f34b148b7b961b87b47840a6e5", null ],
     [ "th_num_dens_int", "classkariba_1_1Mixed.html#a76f8ad9d840633ebb9e96034e7dc8b40", null ],
+    [ "pcut_pl", "classkariba_1_1Mixed.html#a96361ce66883f2d3c4196fc5e3f21899", null ],
     [ "plfrac", "classkariba_1_1Mixed.html#a66ccbd2b38c6d2f6b758790ae1991821", null ],
     [ "plnorm", "classkariba_1_1Mixed.html#acbd5a347e9df3f95d2d469a6f153c596", null ],
     [ "pmax_pl", "classkariba_1_1Mixed.html#a6e6273849c8260b492e88c6d079519a9", null ],

@@ -31,8 +31,9 @@ var searchData=
   ['example_20unit_20test_28',['Extensive example unit test',['../md_testing.html#autotoc_md47',1,'']]],
   ['examples_29',['examples',['../md_installation.html#autotoc_md30',1,'Compiling and running the test and examples'],['../md_about.html#autotoc_md4',1,'Examples'],['../md_testing.html#autotoc_md48',1,'Examples']]],
   ['examples_20and_20tests_30',['Building Kariba, the examples and tests',['../md_testing.html#autotoc_md45',1,'']]],
-  ['extend_20or_20change_20class_20functionality_20e_20g_20a_20member_20function_31',['Extend or change class functionality (e.g., a member function)',['../md_using.html#autotoc_md53',1,'']]],
-  ['extend_20or_20fix_20a_20bug_20in_20the_20library_32',['Improve, extend or fix a bug in the library',['../md_using.html#autotoc_md56',1,'']]],
-  ['extending_20some_20parts_20of_20the_20library_33',['Creating your own model using the library, extending some parts of the library',['../md_using.html#autotoc_md52',1,'']]],
-  ['extensive_20example_20unit_20test_34',['Extensive example unit test',['../md_testing.html#autotoc_md47',1,'']]]
+  ['exponential_31',['Exponential',['../namespacekariba.html#a2c271a3ddfd4ef5efa47717702b6cac1ae1236803a9ee8c07567ea83efd0f9bc0',1,'kariba']]],
+  ['extend_20or_20change_20class_20functionality_20e_20g_20a_20member_20function_32',['Extend or change class functionality (e.g., a member function)',['../md_using.html#autotoc_md53',1,'']]],
+  ['extend_20or_20fix_20a_20bug_20in_20the_20library_33',['Improve, extend or fix a bug in the library',['../md_using.html#autotoc_md56',1,'']]],
+  ['extending_20some_20parts_20of_20the_20library_34',['Creating your own model using the library, extending some parts of the library',['../md_using.html#autotoc_md52',1,'']]],
+  ['extensive_20example_20unit_20test_35',['Extensive example unit test',['../md_testing.html#autotoc_md47',1,'']]]
 ];

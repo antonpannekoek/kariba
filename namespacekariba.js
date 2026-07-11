@@ -62,6 +62,11 @@ var namespacekariba =
     [ "ShSDisk", "classkariba_1_1ShSDisk.html", "classkariba_1_1ShSDisk" ],
     [ "Thermal", "classkariba_1_1Thermal.html", "classkariba_1_1Thermal" ],
     [ "ThParams", "structkariba_1_1ThParams.html", "structkariba_1_1ThParams" ],
+    [ "CutoffType", "namespacekariba.html#a2c271a3ddfd4ef5efa47717702b6cac1", [
+      [ "Exponential", "namespacekariba.html#a2c271a3ddfd4ef5efa47717702b6cac1ae1236803a9ee8c07567ea83efd0f9bc0", null ],
+      [ "SuperExponential", "namespacekariba.html#a2c271a3ddfd4ef5efa47717702b6cac1a4e257f54a683839db301e055b6a7d45d", null ],
+      [ "Sech2", "namespacekariba.html#a2c271a3ddfd4ef5efa47717702b6cac1ad34d707b4eb4f1065d23599ad127cd23", null ]
+    ] ],
     [ "av_pl_p_int", "namespacekariba.html#a079783a45cb5662fbd9b01904ae4faeb", null ],
     [ "av_th_p_int", "namespacekariba.html#a1b648d7ca34f98a9def05b9992b3996a", null ],
     [ "colliding_protons", "namespacekariba.html#a110c9232697da63de3495cbcd1864cfa", null ],

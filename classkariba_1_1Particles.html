@@ -91,6 +91,7 @@ $(document).ready(function(){initNavTree('classkariba_1_1Particles.html',''); in
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classkariba_1_1Particles-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">kariba::Particles Class Reference</div></div>
@@ -116,6 +117,10 @@ Inheritance diagram for kariba::Particles:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:aebc2620332de62a8c5f06f31a31905b3" id="r_aebc2620332de62a8c5f06f31a31905b3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkariba_1_1Particles.html#aebc2620332de62a8c5f06f31a31905b3">Particles</a> (size_t size)</td></tr>
 <tr class="separator:aebc2620332de62a8c5f06f31a31905b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e8b5b27d6d2376094cf2fcccd711364" id="r_a5e8b5b27d6d2376094cf2fcccd711364"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkariba_1_1Particles.html#a5e8b5b27d6d2376094cf2fcccd711364">get_cutoff_type</a> () const</td></tr>
+<tr class="separator:a5e8b5b27d6d2376094cf2fcccd711364"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acde95462462bd6d2e41d4e81fbe83127" id="r_acde95462462bd6d2e41d4e81fbe83127"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkariba_1_1Particles.html#acde95462462bd6d2e41d4e81fbe83127">set_cutoff_type</a> (int t)</td></tr>
+<tr class="separator:acde95462462bd6d2e41d4e81fbe83127"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a6eb26a048066eeb4b22014f9bb7463" id="r_a1a6eb26a048066eeb4b22014f9bb7463"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkariba_1_1Particles.html#a1a6eb26a048066eeb4b22014f9bb7463">set_mass</a> (double m)</td></tr>
 <tr class="separator:a1a6eb26a048066eeb4b22014f9bb7463"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a41047615de751669b563464120dc3e" id="r_a1a41047615de751669b563464120dc3e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkariba_1_1Particles.html#a1a41047615de751669b563464120dc3e">initialize_gdens</a> ()</td></tr>
@@ -152,6 +157,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a35be592af8c09e8547acef4f3fa8baba"><td class="mdescLeft">&#160;</td><td class="mdescRight">simple method to check arrays; only meant for debugging  <br /></td></tr>
 <tr class="separator:a35be592af8c09e8547acef4f3fa8baba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a04e6e6f1ca968390fd3d8317aecf65cc" id="r_a04e6e6f1ca968390fd3d8317aecf65cc"><td class="memItemLeft" align="right" valign="top">static double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkariba_1_1Particles.html#a04e6e6f1ca968390fd3d8317aecf65cc">cutoff_factor</a> (double x, int type=<a class="el" href="namespacekariba.html#a2c271a3ddfd4ef5efa47717702b6cac1ae1236803a9ee8c07567ea83efd0f9bc0">Exponential</a>)</td></tr>
+<tr class="separator:a04e6e6f1ca968390fd3d8317aecf65cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:a9191188fe595b105770644a3f924cf87" id="r_a9191188fe595b105770644a3f924cf87"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkariba_1_1Particles.html#a9191188fe595b105770644a3f924cf87">mass_gr</a></td></tr>
@@ -175,10 +185,10 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a46ae44d518ead5b8d376d6cdabaa9a70" id="r_a46ae44d518ead5b8d376d6cdabaa9a70"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkariba_1_1Particles.html#a46ae44d518ead5b8d376d6cdabaa9a70">pdensp2_diff_logp</a></td></tr>
 <tr class="memdesc:a46ae44d518ead5b8d376d6cdabaa9a70"><td class="mdescLeft">&#160;</td><td class="mdescRight">density for radiation calculation p^-2*dn/dp  <br /></td></tr>
 <tr class="separator:a46ae44d518ead5b8d376d6cdabaa9a70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee0db2ebb4721f902ca022754cd79d56" id="r_aee0db2ebb4721f902ca022754cd79d56"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkariba_1_1Particles.html#aee0db2ebb4721f902ca022754cd79d56">cutoff_type</a> = <a class="el" href="namespacekariba.html#a2c271a3ddfd4ef5efa47717702b6cac1ae1236803a9ee8c07567ea83efd0f9bc0">Exponential</a></td></tr>
+<tr class="separator:aee0db2ebb4721f902ca022754cd79d56"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Template class for particle distributions This class contains members and methods that are used for thermal, non-thermal and mixed distributions </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aebc2620332de62a8c5f06f31a31905b3" name="aebc2620332de62a8c5f06f31a31905b3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aebc2620332de62a8c5f06f31a31905b3">&#9670;&#160;</a></span>Particles()</h2>
 
@@ -350,6 +360,42 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a04e6e6f1ca968390fd3d8317aecf65cc" name="a04e6e6f1ca968390fd3d8317aecf65cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04e6e6f1ca968390fd3d8317aecf65cc">&#9670;&#160;</a></span>cutoff_factor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double kariba::Particles::cutoff_factor </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>type</em> = <code><a class="el" href="namespacekariba.html#a2c271a3ddfd4ef5efa47717702b6cac1ae1236803a9ee8c07567ea83efd0f9bc0">Exponential</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a83f66b36737f9cbad56bb1bb4819a93e" name="a83f66b36737f9cbad56bb1bb4819a93e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a83f66b36737f9cbad56bb1bb4819a93e">&#9670;&#160;</a></span>differentiate()</h2>
 
@@ -369,6 +415,31 @@ Protected Attributes</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5e8b5b27d6d2376094cf2fcccd711364" name="a5e8b5b27d6d2376094cf2fcccd711364"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e8b5b27d6d2376094cf2fcccd711364">&#9670;&#160;</a></span>get_cutoff_type()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int kariba::Particles::get_cutoff_type </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -553,6 +624,32 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="acde95462462bd6d2e41d4e81fbe83127" name="acde95462462bd6d2e41d4e81fbe83127"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acde95462462bd6d2e41d4e81fbe83127">&#9670;&#160;</a></span>set_cutoff_type()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void kariba::Particles::set_cutoff_type </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>t</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a1a6eb26a048066eeb4b22014f9bb7463" name="a1a6eb26a048066eeb4b22014f9bb7463"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1a6eb26a048066eeb4b22014f9bb7463">&#9670;&#160;</a></span>set_mass()</h2>
 
@@ -607,6 +704,28 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="aee0db2ebb4721f902ca022754cd79d56" name="aee0db2ebb4721f902ca022754cd79d56"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee0db2ebb4721f902ca022754cd79d56">&#9670;&#160;</a></span>cutoff_type</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int kariba::Particles::cutoff_type = <a class="el" href="namespacekariba.html#a2c271a3ddfd4ef5efa47717702b6cac1ae1236803a9ee8c07567ea83efd0f9bc0">Exponential</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a01d143ffa2dec6eb5e3a9d327b71a016" name="a01d143ffa2dec6eb5e3a9d327b71a016"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a01d143ffa2dec6eb5e3a9d327b71a016">&#9670;&#160;</a></span>gamma</h2>
 

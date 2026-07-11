@@ -113,7 +113,9 @@ var NAVTREE =
       [ "Namespace Members", "namespacemembers.html", [
         [ "All", "namespacemembers.html", null ],
         [ "Functions", "namespacemembers_func.html", null ],
-        [ "Variables", "namespacemembers_vars.html", null ]
+        [ "Variables", "namespacemembers_vars.html", null ],
+        [ "Enumerations", "namespacemembers_enum.html", null ],
+        [ "Enumerator", "namespacemembers_eval.html", null ]
       ] ]
     ] ],
     [ "Classes", "annotated.html", [
@@ -136,10 +138,10 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "BBody_8cpp.html",
-"classkariba_1_1Compton.html#a73dfecf6915f23ed49c911408d97bfa2",
-"classkariba_1_1Particles.html#a83f66b36737f9cbad56bb1bb4819a93e",
-"functions_n.html",
-"structkariba_1_1DiskObsParams.html#a295ca96e6f5e0d30d47094df4ec69c80"
+"classkariba_1_1Compton.html#a6ae7a4965c15c2208fe63eb4c2b7e187",
+"classkariba_1_1Particles.html#a46ae44d518ead5b8d376d6cdabaa9a70",
+"functions_y.html",
+"structkariba_1_1HetaParams.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

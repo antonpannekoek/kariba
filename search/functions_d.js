@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['qggeefunction_0',['Qggeefunction',['../classkariba_1_1Powerlaw.html#a182ae6531781d658f7f3be2d3ea23b0b',1,'kariba::Powerlaw']]]
+  ['radiation_0',['Radiation',['../classkariba_1_1Radiation.html#a72c26090e16d3a8a34fe1aedb22bf126',1,'kariba::Radiation']]],
+  ['reset_1',['reset',['../classkariba_1_1Compton.html#a316a493a4576076e228b13ed81c1476c',1,'kariba::Compton']]],
+  ['rin_2',['rin',['../classkariba_1_1ShSDisk.html#adf1f9df38ca4ba11df0c5e359aa53300',1,'kariba::ShSDisk']]]
 ];

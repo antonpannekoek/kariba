@@ -1,6 +1,8 @@
 var searchData=
 [
-  ['w1_0',['w1',['../classkariba_1_1Compton.html#aec02a509033d7868532ef9f38954e193',1,'kariba::Compton']]],
-  ['w2_1',['w2',['../classkariba_1_1Compton.html#a19b5b45a9a0a8d47ae0e1f5896ea2b2f',1,'kariba::Compton::w2'],['../structkariba_1_1ComintParams.html#ad02c818b10bc032b757e8fc78943a1b2',1,'kariba::ComintParams::w2']]],
-  ['with_20or_20for_20the_20kariba_20library_2',['Using and developing with or for the Kariba library',['../md_using.html#autotoc_md50',1,'']]]
+  ['your_20changes_0',['Create a branch and add your changes',['../md_using.html#autotoc_md58',1,'']]],
+  ['your_20functions_20small_1',['Keep your functions small',['../md_style-and-tips.html#autotoc_md36',1,'']]],
+  ['your_20own_20model_20using_20the_20library_2',['Creating your own model using the library',['../md_using.html#autotoc_md51',1,'']]],
+  ['your_20own_20model_20using_20the_20library_20extending_20some_20parts_20of_20the_20library_3',['Creating your own model using the library, extending some parts of the library',['../md_using.html#autotoc_md52',1,'']]],
+  ['ypar_4',['ypar',['../classkariba_1_1Compton.html#ab938c94bebd08e63651f86dab81ec136',1,'kariba::Compton']]]
 ];
