@@ -41,10 +41,17 @@ void BBody::set_lum(double L) {
 //! Method to set BB spectrum
 void BBody::bb_spectrum() {
     for (size_t i = 0; i < num_phot.size(); i++) {
-        num_phot[i] = normbb * 2. * constants::pi * constants::herg *
+        
+        if (en_phot_obs[i] / (Tbb * constants::kboltz) < 700) {
+            num_phot[i] = normbb * 2. * constants::pi * constants::herg *
                       std::pow(en_phot_obs[i] / constants::herg, 3.) /
-                      (std::pow(constants::cee, 2.) *
-                       (std::exp(en_phot_obs[i] / (Tbb * constants::kboltz)) - 1.));
+                      (std::pow(constants::cee, 2.) * 
+                      (std::exp(en_phot_obs[i] / (Tbb * constants::kboltz)) - 1.));
+        }
+        else {
+            num_phot[i] = 1e-150; // small, =0
+        }
+
         num_phot_obs[i] = num_phot[i];
     }
 }
